@@ -10,7 +10,7 @@
 
 ### 🔗 快速入口
 
-- 🏠 **个人作品集（主站）**：[https://stdwang.github.io/penpenWeb/](https://stdwang.github.io/penpenWeb/) ｜ [WorkBuddy 镜像](https://penpen-portfolio.app.workbuddy.host/portfolio/?sharecode=ZGOW7OHTCI)
+- 🏠 **个人作品集（主站）**：[https://stdwang.github.io/penpenWeb/](https://stdwang.github.io/penpenWeb/) ｜ [国内镜像](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K)
 - 🎮 **游戏档案 · 四条技术路线**：[/games 四款游戏介绍与试玩](https://stdwang.github.io/penpenWeb/games/)
 - 🕹️ **游戏橱窗 · 打开即玩**：[GitHub Pages 主站](https://stdwang.github.io/) ｜ [国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)（国内访问主站不稳定时点这个，请保留 `?sharecode=` 参数）
 
