@@ -8,11 +8,19 @@
 
 </div>
 
+### 🔗 快速入口
+
+- 🏠 **个人作品集（主站）**：[https://stdwang.github.io/penpenWeb/](https://stdwang.github.io/penpenWeb/) ｜ [WorkBuddy 镜像](https://penpen-portfolio.app.workbuddy.host/portfolio/?sharecode=ZGOW7OHTCI)
+- 🎮 **游戏档案 · 四条技术路线**：[/games 四款游戏介绍与试玩](https://stdwang.github.io/penpenWeb/games/)
+- 🕹️ **游戏橱窗 · 打开即玩**：[GitHub Pages 主站](https://stdwang.github.io/) ｜ [国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)（国内访问主站不稳定时点这个，请保留 `?sharecode=` 参数）
+
+> 两款源码私有游戏（黑暗童话、喵饭家族争夺战）只发布构建产物供试玩，不公开源码工程。
+
 ### 👋 About Me
 
 - 🖥️ **C++ / Qt 桌面开发** — 高性能桌面工具与系统软件：性能可视化分析器 [GPUView](https://github.com/STDwang/GPUView)（Qt Widgets、百万级事件时间线、异步快照）、硬件信息工具 [QtSysInfo](https://github.com/STDwang/QtSysInfo) 与 [sysInfo](https://github.com/STDwang/sysInfo)（系统语言 / 时区 / 公网 IP 检测）、TWAIN 扫描框架 [twpp-qml](https://github.com/STDwang/twpp-qml)（header-only，C++11）
 - 🎮 **游戏开发** — 🕹️ [**游戏橱窗 · 打开即玩**](https://stdwang.github.io/)（浏览器直接试玩全部作品）：寂静岭式第一人称恐怖短片游戏 [mistloop · 雾林回环](https://github.com/STDwang/mistloop)（Three.js）；Godot 4.7 + Blender 程序化建模 3D 探索游戏 [Dreamscape](https://github.com/STDwang/Dreamscape)（盔甲小猫探索梦境废墟）；幸存者like 原型「黑暗童话」与 Cocos 消除对战「喵饭家族争夺战」（源码私有，线上可玩）
-- 🌐 **Web 作品集** — [penpenWeb](https://github.com/STDwang/penpenWeb)：C++ 与仿真平台工程作品集，Next.js 构建，含案例研究、个人实验室与交互演示
+- 🌐 **Web 作品集** — [penpenWeb](https://github.com/STDwang/penpenWeb)（[在线主站](https://stdwang.github.io/penpenWeb/)）：C++ 与仿真平台工程作品集，Next.js 静态导出，含案例研究、个人实验室、交互演示与 4 款游戏档案；视觉为「工程蓝图 × 新粗野」
 
 ### 🛠️ Tech Stack
 
