@@ -1,136 +1,230 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1160" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
   <defs>
     <linearGradient id="trunkGrad" x1="0" y1="600" x2="0" y2="958" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6e4a28"/>
-      <stop offset="1" stop-color="#8a5f36"/>
+      <stop offset="0" stop-color="#3d2a18"/>
+      <stop offset="0.5" stop-color="#5a3d22"/>
+      <stop offset="1" stop-color="#6e4a28"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="leafG" cx="0.35" cy="0.3" r="1">
+      <stop offset="0" stop-color="#4ade80"/>
+      <stop offset="0.55" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#15803d"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30,0 L0,0 L0,30" fill="none" stroke="#22d3ee" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="glowSoft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowChip" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#22d3ee" flood-opacity="0.22"/>
+    </filter>
+    <filter id="glowFruit" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#4ade80" flood-opacity="0.25"/>
+    </filter>
+    <filter id="glowRoot" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#a78bfa" flood-opacity="0.25"/>
+    </filter>
     <style>
-      .bg { fill: #0d1117; }
-      .ground { fill: #122a1c; }
-      .star { fill: #8b949e; opacity: 0.55; }
-      .firefly { fill: #f2cc60; opacity: 0.85; }
-      .leafA { fill: #1c6b34; }
-      .leafB { fill: #2ea043; }
-      .leafC { fill: #46d160; }
-      .trunkLine { stroke: #4a3116; stroke-width: 2; fill: none; opacity: 0.55; stroke-linecap: round; }
-      .branch { stroke: #6e4a28; fill: none; stroke-linecap: round; }
-      .root { stroke: #6e4a28; fill: none; stroke-linecap: round; opacity: 0.85; }
-      .stem { stroke: #46d160; stroke-width: 1.4; fill: none; opacity: 0.7; }
-      .t-title { fill: #e6edf3; font-size: 30px; font-weight: 700; }
-      .t-sub { fill: #8b949e; font-size: 14px; }
-      .t-chip-title { fill: #79b8ff; font-size: 19px; font-weight: 700; }
-      .t-chip-sub { fill: #8b949e; font-size: 12px; }
-      .t-tag { fill: #7ee787; font-size: 12px; font-weight: 600; }
-      .t-root { fill: #d2a8ff; font-size: 13px; font-weight: 600; }
-      .t-legend { fill: #8b949e; font-size: 13px; }
-      .chip { fill: rgba(88,166,255,0.10); stroke: rgba(88,166,255,0.45); stroke-width: 1.2; }
-      .tag { fill: rgba(70,209,96,0.12); stroke: rgba(70,209,96,0.50); stroke-width: 1.2; }
-      .rootchip { fill: rgba(210,168,255,0.10); stroke: rgba(210,168,255,0.45); stroke-width: 1.2; }
-      .connector { stroke: rgba(88,166,255,0.35); stroke-width: 1.2; stroke-dasharray: 3 4; fill: none; }
-      @media (prefers-color-scheme: light) {
-        .bg { fill: #ffffff; }
-        .ground { fill: #e2f3e6; }
-        .star { fill: #0969da; opacity: 0.25; }
-        .firefly { fill: #d4a72c; opacity: 0.6; }
-        .leafA { fill: #1a7f37; }
-        .leafB { fill: #2da44e; }
-        .leafC { fill: #4ac26b; }
-        .trunkLine { stroke: #5a3d22; }
-        .branch { stroke: #8b5e34; }
-        .root { stroke: #8b5e34; }
-        .t-title { fill: #1f2328; }
-        .t-sub { fill: #57606a; }
-        .t-chip-title { fill: #0969da; }
-        .t-chip-sub { fill: #57606a; }
-        .t-tag { fill: #1a7f37; }
-        .t-root { fill: #8250df; }
-        .t-legend { fill: #57606a; }
-        .chip { fill: rgba(9,105,218,0.07); stroke: rgba(9,105,218,0.40); }
-        .tag { fill: rgba(26,127,55,0.08); stroke: rgba(26,127,55,0.45); }
-        .rootchip { fill: rgba(130,80,223,0.08); stroke: rgba(130,80,223,0.40); }
-        .connector { stroke: rgba(9,105,218,0.30); }
-      }
+      .mono { font-family: 'Cascadia Code','JetBrains Mono',Consolas,monospace; }
+      .bg { fill: #030a14; }
+      .grid { fill: url(#grid); }
+      .hud { stroke: #22d3ee; stroke-opacity: 0.55; stroke-width: 1.5; fill: none; }
+      .star { fill: #a5f3fc; opacity: 0.5; }
+      .firefly { fill: #fbbf24; opacity: 0.85; }
+      .ground { fill: #061623; }
+      .circuit { stroke: #22d3ee; stroke-opacity: 0.30; stroke-width: 1.3; fill: none; }
+      .node-dot { fill: #a5f3fc; }
+      .node-link { stroke: #7dd3fc; stroke-opacity: 0.35; stroke-width: 1; }
+      .leaf { fill: url(#leafG); stroke: #4ade80; stroke-opacity: 0.25; stroke-width: 1; }
+      .trunkLine { stroke: #2b1c0e; stroke-width: 2; fill: none; opacity: 0.6; stroke-linecap: round; }
+      .trace { stroke: #22d3ee; stroke-opacity: 0.55; stroke-width: 1.6; fill: none; stroke-linecap: round; }
+      .branch { stroke: #4a3320; fill: none; stroke-linecap: round; }
+      .root { stroke: #4a3320; fill: none; stroke-linecap: round; opacity: 0.9; }
+      .rootGlow { stroke: #a78bfa; fill: none; stroke-linecap: round; opacity: 0.18; }
+      .stem { stroke: #4ade80; stroke-width: 1.4; fill: none; opacity: 0.7; }
+      .t-title { fill: #f8fafc; font-size: 30px; font-weight: 700; }
+      .t-sub { fill: #67e8f9; font-size: 13px; }
+      .t-status { fill: #64748b; font-size: 11px; }
+      .t-online { fill: #4ade80; font-size: 11px; font-weight: 700; }
+      .t-chip-title { fill: #67e8f9; font-size: 19px; font-weight: 700; }
+      .t-chip-sub { fill: #9fb3c8; font-size: 12px; }
+      .t-tag { fill: #86efac; font-size: 12px; font-weight: 600; }
+      .t-root { fill: #c4b5fd; font-size: 13px; font-weight: 600; }
+      .t-legend { fill: #94a3b8; font-size: 13px; }
+      .chip { fill: rgba(34,211,238,0.07); stroke: rgba(34,211,238,0.65); stroke-width: 1.2; }
+      .tag { fill: rgba(74,222,128,0.08); stroke: rgba(74,222,128,0.65); stroke-width: 1.2; }
+      .rootchip { fill: rgba(167,139,250,0.08); stroke: rgba(167,139,250,0.65); stroke-width: 1.2; }
+      .connector { stroke: rgba(34,211,238,0.45); stroke-width: 1.2; stroke-dasharray: 3 4; fill: none; }
     </style>
   </defs>
 
-  <!-- 背景 -->
+  <!-- 背景：深空 + 网格 + 光晕 -->
   <rect class="bg" x="0" y="0" width="900" height="1160"/>
-  <ellipse cx="450" cy="380" rx="340" ry="270" fill="url(#glow)"/>
+  <rect class="grid" x="0" y="0" width="900" height="1160"/>
+  <ellipse cx="450" cy="380" rx="340" ry="270" fill="url(#glowCyan)"/>
+  <ellipse cx="720" cy="560" rx="260" ry="220" fill="url(#glowPurple)"/>
+
+  <!-- HUD 边框角标 -->
+  <path class="hud" d="M16,44 L16,16 L44,16"/>
+  <path class="hud" d="M856,16 L884,16 L884,44"/>
+  <path class="hud" d="M16,1116 L16,1144 L44,1144"/>
+  <path class="hud" d="M856,1144 L884,1144 L884,1116"/>
+
+  <!-- 状态栏 -->
+  <text class="mono t-status" x="52" y="34">⌬ PENPEN · AI-GROWTH-TREE v2.0 // 档案实时同步中</text>
+  <text class="mono t-online" x="770" y="34">● ONLINE<tspan class="t-status"> ▮</tspan>
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </text>
 
   <!-- 星点与萤火 -->
-  <circle class="star" cx="80" cy="120" r="1.5"/><circle class="star" cx="160" cy="200" r="1"/>
-  <circle class="star" cx="760" cy="150" r="1.5"/><circle class="star" cx="830" cy="260" r="1"/>
-  <circle class="star" cx="700" cy="90" r="1"/><circle class="star" cx="120" cy="320" r="1"/>
-  <circle class="star" cx="820" cy="380" r="1.2"/><circle class="star" cx="60" cy="470" r="1"/>
-  <circle class="star" cx="240" cy="120" r="1"/><circle class="star" cx="660" cy="220" r="1"/>
-  <circle class="firefly" cx="320" cy="480" r="2.2"/><circle class="firefly" cx="580" cy="470" r="2"/>
-  <circle class="firefly" cx="180" cy="340" r="2"/><circle class="firefly" cx="720" cy="350" r="2"/>
-  <circle class="firefly" cx="450" cy="182" r="2.2"/>
+  <circle class="star" cx="80" cy="120" r="1.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="160" cy="200" r="1"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="4.1s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="760" cy="150" r="1.5"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.7s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="830" cy="260" r="1"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="2.9s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="700" cy="90" r="1"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="120" cy="320" r="1"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="820" cy="380" r="1.2"><animate attributeName="opacity" values="0.3;0.85;0.3" dur="3.9s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="60" cy="470" r="1"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="240" cy="120" r="1"><animate attributeName="opacity" values="0.25;0.8;0.25" dur="4.3s" repeatCount="indefinite"/></circle>
+  <circle class="star" cx="660" cy="220" r="1"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.6s" repeatCount="indefinite"/></circle>
+  <circle class="firefly" cx="320" cy="480" r="2.2"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle class="firefly" cx="580" cy="470" r="2"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.0s" repeatCount="indefinite"/></circle>
+  <circle class="firefly" cx="180" cy="340" r="2"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle class="firefly" cx="720" cy="350" r="2"><animate attributeName="opacity" values="0.4;0.95;0.4" dur="3.3s" repeatCount="indefinite"/></circle>
+  <circle class="firefly" cx="450" cy="182" r="2.2"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.4s" repeatCount="indefinite"/></circle>
 
   <!-- 标题 -->
-  <text class="t-title" x="450" y="52" text-anchor="middle">🌳 AI 学习探索之路</text>
-  <text class="t-sub" x="450" y="84" text-anchor="middle">从一粒种子到枝繁叶茂 —— 把好奇心种成一片森林</text>
+  <text class="t-title" x="450" y="72" text-anchor="middle" filter="url(#glowChip)">🌳 AI 学习探索之路</text>
+  <text class="mono t-sub" x="450" y="100" text-anchor="middle">// compiling curiosity into a forest — 把好奇心编译成一片森林</text>
 
   <!-- 三大枝干标签 -->
   <line class="connector" x1="195" y1="308" x2="195" y2="330"/>
-  <rect class="chip" x="90" y="250" width="210" height="58" rx="14"/>
-  <text class="t-chip-title" x="195" y="276" text-anchor="middle">🖥️ 本地 Codex</text>
-  <text class="t-chip-sub" x="195" y="296" text-anchor="middle">终端里的 AI 结对编程</text>
+  <g filter="url(#glowChip)">
+    <rect class="chip" x="90" y="250" width="210" height="58" rx="14"/>
+    <text class="t-chip-title" x="195" y="276" text-anchor="middle">🖥️ 本地 Codex</text>
+    <text class="t-chip-sub" x="195" y="296" text-anchor="middle">终端里的 AI 结对编程</text>
+  </g>
 
   <line class="connector" x1="450" y1="188" x2="450" y2="208"/>
-  <rect class="chip" x="315" y="126" width="270" height="62" rx="14"/>
-  <text class="t-chip-title" x="450" y="152" text-anchor="middle">🤖 WorkBuddy</text>
-  <text class="t-chip-sub" x="450" y="174" text-anchor="middle">Agent 编排 · Skill · MCP · 自动化工作流</text>
+  <g filter="url(#glowChip)">
+    <rect class="chip" x="315" y="126" width="270" height="62" rx="14"/>
+    <text class="t-chip-title" x="450" y="152" text-anchor="middle">🤖 WorkBuddy</text>
+    <text class="t-chip-sub" x="450" y="174" text-anchor="middle">Agent 编排 · Skill · MCP · 自动化工作流</text>
+  </g>
 
   <line class="connector" x1="705" y1="308" x2="705" y2="330"/>
-  <rect class="chip" x="585" y="250" width="240" height="58" rx="14"/>
-  <text class="t-chip-title" x="705" y="276" text-anchor="middle">🐋 DeepSeek</text>
-  <text class="t-chip-sub" x="705" y="296" text-anchor="middle">国产大模型 · 推理 / 长文本 / 本地化</text>
+  <g filter="url(#glowChip)">
+    <rect class="chip" x="585" y="250" width="240" height="58" rx="14"/>
+    <text class="t-chip-title" x="705" y="276" text-anchor="middle">🐋 DeepSeek</text>
+    <text class="t-chip-sub" x="705" y="296" text-anchor="middle">国产大模型 · 推理 / 长文本 / 本地化</text>
+  </g>
 
-  <!-- 左侧树冠 -->
-  <circle class="leafA" cx="130" cy="460" r="55"/>
-  <circle class="leafA" cx="258" cy="460" r="55"/>
-  <circle class="leafA" cx="195" cy="430" r="80"/>
-  <circle class="leafB" cx="160" cy="370" r="50"/>
-  <circle class="leafB" cx="235" cy="370" r="50"/>
-  <circle class="leafC" cx="195" cy="425" r="52"/>
+  <!-- 左侧树冠（轻微摇摆） -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="-0.7 195 520;0.7 195 520;-0.7 195 520" dur="6.5s" repeatCount="indefinite"/>
+    <circle class="leaf" cx="130" cy="460" r="55"/>
+    <circle class="leaf" cx="258" cy="460" r="55"/>
+    <circle class="leaf" cx="195" cy="430" r="80"/>
+    <g stroke-linecap="round">
+      <line class="node-link" x1="195" y1="430" x2="140" y2="420"/>
+      <line class="node-link" x1="195" y1="430" x2="195" y2="390"/>
+      <line class="node-link" x1="195" y1="430" x2="250" y2="425"/>
+      <line class="node-link" x1="195" y1="430" x2="168" y2="462"/>
+      <line class="node-link" x1="195" y1="430" x2="226" y2="460"/>
+    </g>
+    <circle class="node-dot" cx="140" cy="420" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="195" cy="390" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="1;0.35;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="250" cy="425" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="168" cy="462" r="2.5" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="226" cy="460" r="2.5" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="195" cy="430" r="4" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
 
-  <!-- 中央树冠 -->
-  <circle class="leafA" cx="390" cy="372" r="52"/>
-  <circle class="leafA" cx="510" cy="372" r="52"/>
-  <circle class="leafA" cx="450" cy="330" r="88"/>
-  <circle class="leafB" cx="408" cy="282" r="46"/>
-  <circle class="leafB" cx="492" cy="282" r="46"/>
-  <circle class="leafC" cx="450" cy="322" r="55"/>
+  <!-- 中央树冠（轻微摇摆） -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0.6 450 440;-0.6 450 440;0.6 450 440" dur="7.2s" repeatCount="indefinite"/>
+    <circle class="leaf" cx="390" cy="372" r="52"/>
+    <circle class="leaf" cx="510" cy="372" r="52"/>
+    <circle class="leaf" cx="450" cy="330" r="88"/>
+    <g stroke-linecap="round">
+      <line class="node-link" x1="450" y1="330" x2="400" y2="330"/>
+      <line class="node-link" x1="450" y1="330" x2="500" y2="330"/>
+      <line class="node-link" x1="450" y1="330" x2="425" y2="285"/>
+      <line class="node-link" x1="450" y1="330" x2="475" y2="285"/>
+      <line class="node-link" x1="400" y1="330" x2="425" y2="285"/>
+      <line class="node-link" x1="500" y1="330" x2="475" y2="285"/>
+    </g>
+    <circle class="node-dot" cx="400" cy="330" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="500" cy="330" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="1;0.35;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="425" cy="285" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="475" cy="285" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="450" cy="330" r="4.5" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.0s" repeatCount="indefinite"/></circle>
+  </g>
 
-  <!-- 右侧树冠 -->
-  <circle class="leafA" cx="640" cy="460" r="55"/>
-  <circle class="leafA" cx="768" cy="460" r="55"/>
-  <circle class="leafA" cx="705" cy="430" r="80"/>
-  <circle class="leafB" cx="670" cy="370" r="50"/>
-  <circle class="leafB" cx="745" cy="370" r="50"/>
-  <circle class="leafC" cx="705" cy="425" r="52"/>
+  <!-- 右侧树冠（轻微摇摆） -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="0.7 705 520;-0.7 705 520;0.7 705 520" dur="6.8s" repeatCount="indefinite"/>
+    <circle class="leaf" cx="640" cy="460" r="55"/>
+    <circle class="leaf" cx="768" cy="460" r="55"/>
+    <circle class="leaf" cx="705" cy="430" r="80"/>
+    <g stroke-linecap="round">
+      <line class="node-link" x1="705" y1="430" x2="650" y2="420"/>
+      <line class="node-link" x1="705" y1="430" x2="705" y2="390"/>
+      <line class="node-link" x1="705" y1="430" x2="760" y2="425"/>
+      <line class="node-link" x1="705" y1="430" x2="678" y2="462"/>
+      <line class="node-link" x1="705" y1="430" x2="736" y2="460"/>
+    </g>
+    <circle class="node-dot" cx="650" cy="420" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="705" cy="390" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="1;0.35;1" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="760" cy="425" r="3" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="678" cy="462" r="2.5" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="736" cy="460" r="2.5" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle class="node-dot" cx="705" cy="430" r="4" filter="url(#glowSoft)"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/></circle>
+  </g>
 
-  <!-- 果实标签：AI 辅助落地的作品 -->
-  <path class="stem" d="M138,502 C 134,520 132,535 132,546"/>
-  <rect class="tag" x="45" y="546" width="180" height="27" rx="13"/>
-  <text class="t-tag" x="135" y="564" text-anchor="middle">🎮 mistloop · 雾林回环</text>
-
-  <path class="stem" d="M262,505 C 266,525 268,545 268,568"/>
-  <rect class="tag" x="206" y="568" width="128" height="27" rx="13"/>
-  <text class="t-tag" x="270" y="586" text-anchor="middle">🐱 Dreamscape</text>
-
-  <path class="stem" d="M636,502 C 632,520 630,535 630,546"/>
-  <rect class="tag" x="575" y="546" width="112" height="27" rx="13"/>
-  <text class="t-tag" x="631" y="564" text-anchor="middle">📊 GPUView</text>
-
-  <path class="stem" d="M748,505 C 752,525 754,545 754,568"/>
-  <rect class="tag" x="668" y="568" width="176" height="27" rx="13"/>
-  <text class="t-tag" x="756" y="586" text-anchor="middle">🌐 penpenWeb · 作品集</text>
+  <!-- 果实标签：AI 辅助落地的作品（浮动动效） -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.4s" repeatCount="indefinite"/>
+    <path class="stem" d="M138,502 C 134,520 132,535 132,546"/>
+    <g filter="url(#glowFruit)">
+      <rect class="tag" x="45" y="546" width="180" height="27" rx="13"/>
+      <text class="t-tag" x="135" y="564" text-anchor="middle">🎮 mistloop · 雾林回环</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.8s" begin="0.8s" repeatCount="indefinite"/>
+    <path class="stem" d="M262,505 C 266,525 268,545 268,568"/>
+    <g filter="url(#glowFruit)">
+      <rect class="tag" x="206" y="568" width="128" height="27" rx="13"/>
+      <text class="t-tag" x="270" y="586" text-anchor="middle">🐱 Dreamscape</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="0.4s" repeatCount="indefinite"/>
+    <path class="stem" d="M636,502 C 632,520 630,535 630,546"/>
+    <g filter="url(#glowFruit)">
+      <rect class="tag" x="575" y="546" width="112" height="27" rx="13"/>
+      <text class="t-tag" x="631" y="564" text-anchor="middle">📊 GPUView</text>
+    </g>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="4.0s" begin="1.2s" repeatCount="indefinite"/>
+    <path class="stem" d="M748,505 C 752,525 754,545 754,568"/>
+    <g filter="url(#glowFruit)">
+      <rect class="tag" x="668" y="568" width="176" height="27" rx="13"/>
+      <text class="t-tag" x="756" y="586" text-anchor="middle">🌐 penpenWeb · 作品集</text>
+    </g>
+  </g>
 
   <!-- 枝干 -->
   <path class="branch" stroke-width="14" d="M436,612 C 380,572 320,542 262,508 C 240,496 226,486 214,474"/>
@@ -143,30 +237,66 @@
   <path fill="url(#trunkGrad)" d="M402,958 C 404,860 415,780 428,690 C 433,652 436,622 438,600 L462,600 C 464,622 467,652 472,690 C 485,780 496,860 498,958 Z"/>
   <path class="trunkLine" d="M432,920 C 434,850 438,780 441,700"/>
   <path class="trunkLine" d="M464,900 C 463,830 460,760 456,700"/>
+  <!-- 树干内流动的数据电路 -->
+  <path class="trace" stroke-dasharray="7 12" d="M428,940 C 430,860 436,780 440,706">
+    <animate attributeName="stroke-dashoffset" from="0" to="-152" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+  <path class="trace" stroke-dasharray="5 14" d="M466,930 C 465,850 462,770 458,702">
+    <animate attributeName="stroke-dashoffset" from="0" to="-152" dur="4.1s" repeatCount="indefinite"/>
+  </path>
 
-  <!-- 地面 -->
+  <!-- 地面（电路板风格） -->
   <path class="ground" d="M0,968 Q 225,938 450,956 T 900,950 L900,1160 L0,1160 Z"/>
-  <path class="stem" d="M330,962 q 4,-12 8,0" opacity="0.5"/>
-  <path class="stem" d="M560,960 q 4,-12 8,0" opacity="0.5"/>
-  <path class="stem" d="M620,968 q 4,-10 8,0" opacity="0.5"/>
-  <path class="stem" d="M290,970 q 4,-10 8,0" opacity="0.5"/>
+  <path class="circuit" d="M60,1000 h45 l12,12 h38"/>
+  <circle class="node-dot" cx="155" cy="1012" r="2.2" opacity="0.5"/>
+  <path class="circuit" d="M840,1000 h-45 l-12,12 h-38"/>
+  <circle class="node-dot" cx="745" cy="1012" r="2.2" opacity="0.5"/>
+  <path class="circuit" d="M300,1080 h60 l14,-14 h50"/>
+  <circle class="node-dot" cx="424" cy="1066" r="2.2" opacity="0.5"/>
+  <path class="circuit" d="M600,1080 h-60 l-14,-14 h-50"/>
+  <circle class="node-dot" cx="476" cy="1066" r="2.2" opacity="0.5"/>
 
-  <!-- 根系 -->
+  <!-- 根系（紫色辉光） -->
+  <path class="rootGlow" stroke-width="14" d="M420,958 C 380,978 320,982 245,998 C 225,1002 210,1006 195,1010"/>
+  <path class="rootGlow" stroke-width="14" d="M480,958 C 520,978 580,982 655,998 C 675,1002 690,1006 705,1010"/>
+  <path class="rootGlow" stroke-width="12" d="M450,960 C 449,988 448,1012 448,1034"/>
   <path class="root" stroke-width="8" d="M420,958 C 380,978 320,982 245,998"/>
   <path class="root" stroke-width="5" d="M245,998 C 225,1002 210,1006 195,1010"/>
   <path class="root" stroke-width="8" d="M480,958 C 520,978 580,982 655,998"/>
   <path class="root" stroke-width="5" d="M655,998 C 675,1002 690,1006 705,1010"/>
   <path class="root" stroke-width="7" d="M450,960 C 449,988 448,1012 448,1034"/>
 
-  <rect class="rootchip" x="115" y="1002" width="170" height="30" rx="15"/>
-  <text class="t-root" x="200" y="1022" text-anchor="middle">C++ / Qt 工程底座</text>
-
-  <rect class="rootchip" x="620" y="1002" width="160" height="30" rx="15"/>
-  <text class="t-root" x="700" y="1022" text-anchor="middle">好奇心 · 自驱力</text>
-
-  <rect class="rootchip" x="385" y="1034" width="130" height="30" rx="15"/>
-  <text class="t-root" x="450" y="1054" text-anchor="middle">工程化思维</text>
+  <g filter="url(#glowRoot)">
+    <rect class="rootchip" x="115" y="1002" width="170" height="30" rx="15"/>
+    <text class="t-root" x="200" y="1022" text-anchor="middle">C++ / Qt 工程底座</text>
+  </g>
+  <g filter="url(#glowRoot)">
+    <rect class="rootchip" x="620" y="1002" width="160" height="30" rx="15"/>
+    <text class="t-root" x="700" y="1022" text-anchor="middle">好奇心 · 自驱力</text>
+  </g>
+  <g filter="url(#glowRoot)">
+    <rect class="rootchip" x="385" y="1034" width="130" height="30" rx="15"/>
+    <text class="t-root" x="450" y="1054" text-anchor="middle">工程化思维</text>
+  </g>
 
   <!-- 成长阶段 -->
-  <text class="t-legend" x="450" y="1108" text-anchor="middle">🌰 种子 · 初识 AI　→　🌱 生根 · 本地结对　→　🌿 抽枝 · 多智能体编排　→　🌳 繁茂 · 作品落地</text>
+  <text class="mono t-legend" x="450" y="1110" text-anchor="middle">🌰 种子 → 🌱 生根 → 🌿 抽枝 → 🌳 繁茂　// absorb → compile → render → ship</text>
+
+  <!-- 数据粒子：根系吸收 → 树干 → 三大枝干 → 树冠 -->
+  <circle r="3.2" fill="#22d3ee" filter="url(#glowSoft)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M195,1010 C 210,1006 225,1002 245,998 C 320,982 380,978 420,958 C 440,850 436,720 436,612 C 380,572 320,542 262,508 C 240,496 226,486 214,474"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#a78bfa" filter="url(#glowSoft)">
+    <animateMotion dur="6s" begin="1.5s" repeatCount="indefinite" path="M448,1034 C 448,1012 449,988 450,960 C 450,850 448,720 450,606 C 448,540 446,470 447,408"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#4ade80" filter="url(#glowSoft)">
+    <animateMotion dur="7.4s" begin="3s" repeatCount="indefinite" path="M705,1010 C 690,1006 675,1002 655,998 C 580,982 520,978 480,958 C 460,850 464,720 464,612 C 520,572 580,542 638,508 C 660,496 674,486 686,474"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="7.4s" begin="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.6" fill="#fbbf24" filter="url(#glowSoft)">
+    <animateMotion dur="4.5s" begin="2.2s" repeatCount="indefinite" path="M450,955 C 449,850 447,720 450,606"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.88;1" dur="4.5s" begin="2.2s" repeatCount="indefinite"/>
+  </circle>
 </svg>
