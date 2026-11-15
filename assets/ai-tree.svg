@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1160" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="trunkGrad" x1="0" y1="600" x2="0" y2="958" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6e4a28"/>
+      <stop offset="1" stop-color="#8a5f36"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .bg { fill: #0d1117; }
+      .ground { fill: #122a1c; }
+      .star { fill: #8b949e; opacity: 0.55; }
+      .firefly { fill: #f2cc60; opacity: 0.85; }
+      .leafA { fill: #1c6b34; }
+      .leafB { fill: #2ea043; }
+      .leafC { fill: #46d160; }
+      .trunkLine { stroke: #4a3116; stroke-width: 2; fill: none; opacity: 0.55; stroke-linecap: round; }
+      .branch { stroke: #6e4a28; fill: none; stroke-linecap: round; }
+      .root { stroke: #6e4a28; fill: none; stroke-linecap: round; opacity: 0.85; }
+      .stem { stroke: #46d160; stroke-width: 1.4; fill: none; opacity: 0.7; }
+      .t-title { fill: #e6edf3; font-size: 30px; font-weight: 700; }
+      .t-sub { fill: #8b949e; font-size: 14px; }
+      .t-chip-title { fill: #79b8ff; font-size: 19px; font-weight: 700; }
+      .t-chip-sub { fill: #8b949e; font-size: 12px; }
+      .t-tag { fill: #7ee787; font-size: 12px; font-weight: 600; }
+      .t-root { fill: #d2a8ff; font-size: 13px; font-weight: 600; }
+      .t-legend { fill: #8b949e; font-size: 13px; }
+      .chip { fill: rgba(88,166,255,0.10); stroke: rgba(88,166,255,0.45); stroke-width: 1.2; }
+      .tag { fill: rgba(70,209,96,0.12); stroke: rgba(70,209,96,0.50); stroke-width: 1.2; }
+      .rootchip { fill: rgba(210,168,255,0.10); stroke: rgba(210,168,255,0.45); stroke-width: 1.2; }
+      .connector { stroke: rgba(88,166,255,0.35); stroke-width: 1.2; stroke-dasharray: 3 4; fill: none; }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #ffffff; }
+        .ground { fill: #e2f3e6; }
+        .star { fill: #0969da; opacity: 0.25; }
+        .firefly { fill: #d4a72c; opacity: 0.6; }
+        .leafA { fill: #1a7f37; }
+        .leafB { fill: #2da44e; }
+        .leafC { fill: #4ac26b; }
+        .trunkLine { stroke: #5a3d22; }
+        .branch { stroke: #8b5e34; }
+        .root { stroke: #8b5e34; }
+        .t-title { fill: #1f2328; }
+        .t-sub { fill: #57606a; }
+        .t-chip-title { fill: #0969da; }
+        .t-chip-sub { fill: #57606a; }
+        .t-tag { fill: #1a7f37; }
+        .t-root { fill: #8250df; }
+        .t-legend { fill: #57606a; }
+        .chip { fill: rgba(9,105,218,0.07); stroke: rgba(9,105,218,0.40); }
+        .tag { fill: rgba(26,127,55,0.08); stroke: rgba(26,127,55,0.45); }
+        .rootchip { fill: rgba(130,80,223,0.08); stroke: rgba(130,80,223,0.40); }
+        .connector { stroke: rgba(9,105,218,0.30); }
+      }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect class="bg" x="0" y="0" width="900" height="1160"/>
+  <ellipse cx="450" cy="380" rx="340" ry="270" fill="url(#glow)"/>
+
+  <!-- 星点与萤火 -->
+  <circle class="star" cx="80" cy="120" r="1.5"/><circle class="star" cx="160" cy="200" r="1"/>
+  <circle class="star" cx="760" cy="150" r="1.5"/><circle class="star" cx="830" cy="260" r="1"/>
+  <circle class="star" cx="700" cy="90" r="1"/><circle class="star" cx="120" cy="320" r="1"/>
+  <circle class="star" cx="820" cy="380" r="1.2"/><circle class="star" cx="60" cy="470" r="1"/>
+  <circle class="star" cx="240" cy="120" r="1"/><circle class="star" cx="660" cy="220" r="1"/>
+  <circle class="firefly" cx="320" cy="480" r="2.2"/><circle class="firefly" cx="580" cy="470" r="2"/>
+  <circle class="firefly" cx="180" cy="340" r="2"/><circle class="firefly" cx="720" cy="350" r="2"/>
+  <circle class="firefly" cx="450" cy="182" r="2.2"/>
+
+  <!-- 标题 -->
+  <text class="t-title" x="450" y="52" text-anchor="middle">🌳 AI 学习探索之路</text>
+  <text class="t-sub" x="450" y="84" text-anchor="middle">从一粒种子到枝繁叶茂 —— 把好奇心种成一片森林</text>
+
+  <!-- 三大枝干标签 -->
+  <line class="connector" x1="195" y1="308" x2="195" y2="330"/>
+  <rect class="chip" x="90" y="250" width="210" height="58" rx="14"/>
+  <text class="t-chip-title" x="195" y="276" text-anchor="middle">🖥️ 本地 Codex</text>
+  <text class="t-chip-sub" x="195" y="296" text-anchor="middle">终端里的 AI 结对编程</text>
+
+  <line class="connector" x1="450" y1="188" x2="450" y2="208"/>
+  <rect class="chip" x="315" y="126" width="270" height="62" rx="14"/>
+  <text class="t-chip-title" x="450" y="152" text-anchor="middle">🤖 WorkBuddy</text>
+  <text class="t-chip-sub" x="450" y="174" text-anchor="middle">Agent 编排 · Skill · MCP · 自动化工作流</text>
+
+  <line class="connector" x1="705" y1="308" x2="705" y2="330"/>
+  <rect class="chip" x="585" y="250" width="240" height="58" rx="14"/>
+  <text class="t-chip-title" x="705" y="276" text-anchor="middle">🐋 DeepSeek</text>
+  <text class="t-chip-sub" x="705" y="296" text-anchor="middle">国产大模型 · 推理 / 长文本 / 本地化</text>
+
+  <!-- 左侧树冠 -->
+  <circle class="leafA" cx="130" cy="460" r="55"/>
+  <circle class="leafA" cx="258" cy="460" r="55"/>
+  <circle class="leafA" cx="195" cy="430" r="80"/>
+  <circle class="leafB" cx="160" cy="370" r="50"/>
+  <circle class="leafB" cx="235" cy="370" r="50"/>
+  <circle class="leafC" cx="195" cy="425" r="52"/>
+
+  <!-- 中央树冠 -->
+  <circle class="leafA" cx="390" cy="372" r="52"/>
+  <circle class="leafA" cx="510" cy="372" r="52"/>
+  <circle class="leafA" cx="450" cy="330" r="88"/>
+  <circle class="leafB" cx="408" cy="282" r="46"/>
+  <circle class="leafB" cx="492" cy="282" r="46"/>
+  <circle class="leafC" cx="450" cy="322" r="55"/>
+
+  <!-- 右侧树冠 -->
+  <circle class="leafA" cx="640" cy="460" r="55"/>
+  <circle class="leafA" cx="768" cy="460" r="55"/>
+  <circle class="leafA" cx="705" cy="430" r="80"/>
+  <circle class="leafB" cx="670" cy="370" r="50"/>
+  <circle class="leafB" cx="745" cy="370" r="50"/>
+  <circle class="leafC" cx="705" cy="425" r="52"/>
+
+  <!-- 果实标签：AI 辅助落地的作品 -->
+  <path class="stem" d="M138,502 C 134,520 132,535 132,546"/>
+  <rect class="tag" x="45" y="546" width="180" height="27" rx="13"/>
+  <text class="t-tag" x="135" y="564" text-anchor="middle">🎮 mistloop · 雾林回环</text>
+
+  <path class="stem" d="M262,505 C 266,525 268,545 268,568"/>
+  <rect class="tag" x="206" y="568" width="128" height="27" rx="13"/>
+  <text class="t-tag" x="270" y="586" text-anchor="middle">🐱 Dreamscape</text>
+
+  <path class="stem" d="M636,502 C 632,520 630,535 630,546"/>
+  <rect class="tag" x="575" y="546" width="112" height="27" rx="13"/>
+  <text class="t-tag" x="631" y="564" text-anchor="middle">📊 GPUView</text>
+
+  <path class="stem" d="M748,505 C 752,525 754,545 754,568"/>
+  <rect class="tag" x="668" y="568" width="176" height="27" rx="13"/>
+  <text class="t-tag" x="756" y="586" text-anchor="middle">🌐 penpenWeb · 作品集</text>
+
+  <!-- 枝干 -->
+  <path class="branch" stroke-width="14" d="M436,612 C 380,572 320,542 262,508 C 240,496 226,486 214,474"/>
+  <path class="branch" stroke-width="14" d="M464,612 C 520,572 580,542 638,508 C 660,496 674,486 686,474"/>
+  <path class="branch" stroke-width="12" d="M450,606 C 448,540 446,470 447,408"/>
+  <path class="branch" stroke-width="7" d="M300,546 C 320,530 340,520 358,514"/>
+  <path class="branch" stroke-width="7" d="M600,546 C 580,530 560,520 542,514"/>
+
+  <!-- 树干 -->
+  <path fill="url(#trunkGrad)" d="M402,958 C 404,860 415,780 428,690 C 433,652 436,622 438,600 L462,600 C 464,622 467,652 472,690 C 485,780 496,860 498,958 Z"/>
+  <path class="trunkLine" d="M432,920 C 434,850 438,780 441,700"/>
+  <path class="trunkLine" d="M464,900 C 463,830 460,760 456,700"/>
+
+  <!-- 地面 -->
+  <path class="ground" d="M0,968 Q 225,938 450,956 T 900,950 L900,1160 L0,1160 Z"/>
+  <path class="stem" d="M330,962 q 4,-12 8,0" opacity="0.5"/>
+  <path class="stem" d="M560,960 q 4,-12 8,0" opacity="0.5"/>
+  <path class="stem" d="M620,968 q 4,-10 8,0" opacity="0.5"/>
+  <path class="stem" d="M290,970 q 4,-10 8,0" opacity="0.5"/>
+
+  <!-- 根系 -->
+  <path class="root" stroke-width="8" d="M420,958 C 380,978 320,982 245,998"/>
+  <path class="root" stroke-width="5" d="M245,998 C 225,1002 210,1006 195,1010"/>
+  <path class="root" stroke-width="8" d="M480,958 C 520,978 580,982 655,998"/>
+  <path class="root" stroke-width="5" d="M655,998 C 675,1002 690,1006 705,1010"/>
+  <path class="root" stroke-width="7" d="M450,960 C 449,988 448,1012 448,1034"/>
+
+  <rect class="rootchip" x="115" y="1002" width="170" height="30" rx="15"/>
+  <text class="t-root" x="200" y="1022" text-anchor="middle">C++ / Qt 工程底座</text>
+
+  <rect class="rootchip" x="620" y="1002" width="160" height="30" rx="15"/>
+  <text class="t-root" x="700" y="1022" text-anchor="middle">好奇心 · 自驱力</text>
+
+  <rect class="rootchip" x="385" y="1034" width="130" height="30" rx="15"/>
+  <text class="t-root" x="450" y="1054" text-anchor="middle">工程化思维</text>
+
+  <!-- 成长阶段 -->
+  <text class="t-legend" x="450" y="1108" text-anchor="middle">🌰 种子 · 初识 AI　→　🌱 生根 · 本地结对　→　🌿 抽枝 · 多智能体编排　→　🌳 繁茂 · 作品落地</text>
+</svg>

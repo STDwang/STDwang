@@ -22,6 +22,20 @@
 - 🎮 **游戏开发** — 🕹️ [**游戏橱窗 · 打开即玩**](https://stdwang.github.io/)（浏览器直接试玩全部作品）：寂静岭式第一人称恐怖短片游戏 [mistloop · 雾林回环](https://github.com/STDwang/mistloop)（Three.js）；Godot 4.7 + Blender 程序化建模 3D 探索游戏 [Dreamscape](https://github.com/STDwang/Dreamscape)（盔甲小猫探索梦境废墟）；幸存者like 原型「黑暗童话」与 Cocos 消除对战「喵饭家族争夺战」（源码私有，线上可玩）
 - 🌐 **Web 作品集** — [penpenWeb](https://github.com/STDwang/penpenWeb)（[在线主站](https://stdwang.github.io/penpenWeb/)）：C++ 与仿真平台工程作品集，Next.js 静态导出，含案例研究、个人实验室、交互演示与 4 款游戏档案；视觉为「工程蓝图 × 新粗野」
 
+### 🌳 AI 学习探索之路
+
+<div align="center">
+
+<img alt="AI 成长树：根系为 C++/Qt 工程底座与好奇心，三大枝干为本地 Codex、WorkBuddy、DeepSeek，果实为 AI 辅助落地的作品" src="./assets/ai-tree.svg" width="100%">
+
+</div>
+
+- 🖥️ **本地 Codex** — 终端里的 AI 结对编程：用本地 Codex 做代码生成、重构与调试，把 C++ / Qt 的工程直觉喂给模型，再让模型反哺效率
+- 🤖 **WorkBuddy** — 多智能体编排工作台：Skill / MCP / 自动化工作流，把「想法 → 方案 → 落地」串成一条产线，本主页与多款项目都出自这条产线
+- 🐋 **DeepSeek** — 国产大模型探索：推理、长文本与本地化部署试验，摸清模型边界，寻找性价比最优的 AI 工作流组合
+
+> 🌱 一条主线：**用 AI 放大工程能力，而不是替代工程思考。**
+
 ### 🛠️ Tech Stack
 
 <div align="center">
