@@ -62,12 +62,20 @@ ai_toolchain:
     role: "国产模型探索：推理、长文本与本地化试验"
 
 projects:
-  - id: "gpuview"
-    name: "GPUView"
-    category: "desktop_engineering"
-    summary: "百万级事件时间线与异步快照的性能可视化分析器"
-    stack: ["C++", "Qt Widgets"]
-    repository: "https://github.com/STDwang/GPUView"
+  - id: "penpenweb"
+    name: "penpenWeb"
+    category: "web_portfolio"
+    summary: "工程作品集主站，包含案例研究、个人实验室、交互演示与游戏档案"
+    stack: ["Next.js", "TypeScript"]
+    repository: "https://github.com/STDwang/penpenWeb"
+    demo: "https://stdwang.github.io/penpenWeb/"
+    source_visibility: "public"
+  - id: "dreamscape"
+    name: "Dreamscape"
+    category: "interactive_games"
+    summary: "盔甲小猫探索梦境废墟的 3D 探索游戏，结合程序化建模"
+    stack: ["Godot 4", "Blender"]
+    repository: "https://github.com/STDwang/Dreamscape"
     source_visibility: "public"
   - id: "mistloop"
     name: "mistloop · 雾林回环"
@@ -77,41 +85,12 @@ projects:
     repository: "https://github.com/STDwang/mistloop"
     demo: "https://stdwang.github.io/"
     source_visibility: "public"
-  - id: "dreamscape"
-    name: "Dreamscape"
-    category: "interactive_games"
-    summary: "盔甲小猫探索梦境废墟的 3D 探索游戏，结合程序化建模"
-    stack: ["Godot 4", "Blender"]
-    repository: "https://github.com/STDwang/Dreamscape"
-    source_visibility: "public"
-  - id: "penpenweb"
-    name: "penpenWeb"
-    category: "web_portfolio"
-    summary: "工程作品集主站，包含案例研究、个人实验室、交互演示与游戏档案"
-    stack: ["Next.js", "TypeScript"]
-    repository: "https://github.com/STDwang/penpenWeb"
-    demo: "https://stdwang.github.io/penpenWeb/"
-    source_visibility: "public"
-  - id: "twpp_qml"
-    name: "twpp-qml"
+  - id: "gpuview"
+    name: "GPUView"
     category: "desktop_engineering"
-    summary: "header-only TWAIN 扫描框架，修复原版问题并增强能力"
-    stack: ["C++", "C++11"]
-    repository: "https://github.com/STDwang/twpp-qml"
-    source_visibility: "public"
-  - id: "qtsysinfo"
-    name: "QtSysInfo"
-    category: "desktop_engineering"
-    summary: "系统语言、时区与公网 IP 等硬件和环境信息检测工具"
-    stack: ["C++", "Qt"]
-    repository: "https://github.com/STDwang/QtSysInfo"
-    source_visibility: "public"
-  - id: "sysinfo"
-    name: "sysInfo"
-    category: "desktop_engineering"
-    summary: "系统环境信息检测工具"
-    stack: ["C++", "Qt"]
-    repository: "https://github.com/STDwang/sysInfo"
+    summary: "百万级事件时间线与异步快照的性能可视化分析器"
+    stack: ["C++", "Qt Widgets"]
+    repository: "https://github.com/STDwang/GPUView"
     source_visibility: "public"
 
 game_portal:
