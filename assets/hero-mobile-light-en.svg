@@ -16,9 +16,8 @@
   <text class="mono" x="48" y="145" font-size="76" font-weight="800" letter-spacing="-4" fill="#211A14">PEN<tspan fill="#D74716">PEN</tspan></text>
   <text class="sans" x="52" y="181" font-size="20" font-weight="600" letter-spacing="3" fill="#211A14">Shuaipeng Wang / penpen</text>
   <path d="M50 205H550" stroke="#D74716" stroke-width="2"/>
-  <text class="sans" x="50" y="248" font-size="25" font-weight="600" fill="#211A14">Engineering instinct, made playable.</text>
-  <text class="mono" x="50" y="283" font-size="13" fill="#64564B">C++ / Qt Desktop　·　Godot + Blender Games</text>
-  <text class="mono" x="50" y="307" font-size="13" fill="#64564B">AI Agent Workflows　·　Coding with curiosity</text>
+  <text class="mono" x="50" y="244" font-size="13" fill="#64564B">C++ / Qt Desktop　·　Godot + Blender Games</text>
+  <text class="mono" x="50" y="268" font-size="13" fill="#64564B">AI Agent Workflows</text>
 
   <path d="M300 420L300 352M300 420L158 462M300 420L442 462" stroke="#D74716" stroke-opacity=".65" stroke-width="1.5"/>
   <circle cx="300" cy="420" r="42" fill="#F3EDE3" stroke="#D74716" stroke-width="1.5"/>

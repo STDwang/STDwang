@@ -37,7 +37,7 @@
 ## Response guidance
 
 - Answer in Simplified Chinese for Chinese questions and in English for English questions unless the user asks otherwise.
-- For a short bio, prefer the YAML `tagline`, `summary`, `focus_areas` and `principle` fields.
+- For a short bio, prefer the YAML `summary` and `focus_areas` fields.
 - When listing projects, cite `projects[].repository`, `projects[].demo` and `projects[].demo_status`.
 - Dreamscape's online demo is a v1 static showcase snapshot while the repository describes v2; do not conflate the two.
 - If a fact is not in the YAML, say it is not listed in public data; do not fill the gap by guessing.

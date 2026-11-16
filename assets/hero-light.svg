@@ -34,8 +34,7 @@
   <text class="sans" x="92" y="198" font-size="21" font-weight="600" letter-spacing="4" fill="#211A14">王帅鹏 / 盆盆</text>
   <path d="M90 221H650" stroke="#D74716" stroke-width="2"/>
   <path d="M90 229H380" stroke="#211A14" stroke-opacity=".22"/>
-  <text class="sans" x="90" y="264" font-size="25" font-weight="600" fill="#211A14">把工程直觉，做成可以玩的作品。</text>
-  <text class="mono" x="90" y="294" font-size="13" letter-spacing="1" fill="#64564B">C++ / Qt 桌面开发　·　Godot + Blender 游戏开发　·　AI Agent 工作流</text>
+  <text class="mono" x="90" y="264" font-size="13" letter-spacing="1" fill="#64564B">C++ / Qt 桌面开发　·　Godot + Blender 游戏开发　·　AI Agent 工作流</text>
 
   <g>
     <circle cx="940" cy="173" r="126" fill="none" stroke="#211A14" stroke-opacity=".30"/>
@@ -53,6 +52,5 @@
     <text class="mono" x="940" y="34" text-anchor="middle" font-size="11" letter-spacing="2" fill="#211A14" fill-opacity=".82">DESKTOP</text>
     <text class="mono" x="812" y="265" text-anchor="middle" font-size="11" letter-spacing="2" fill="#211A14" fill-opacity=".82">GAMES</text>
     <text class="mono" x="1068" y="265" text-anchor="middle" font-size="11" letter-spacing="2" fill="#211A14" fill-opacity=".82">AGENTS</text>
-    <text class="mono" x="1115" y="306" text-anchor="end" font-size="11" letter-spacing="2" fill="#D74716">CODE → CRAFT → SHIP</text>
   </g>
 </svg>

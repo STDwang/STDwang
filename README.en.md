@@ -2,80 +2,104 @@
 <!-- HUMAN-READABLE-PROFILE-EN:START -->
 
 <picture>
-  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-dark-en.svg?v=20261116">
-  <source media="(max-width: 700px) and (prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-light-en.svg?v=20261116">
-  <source media="(prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-dark-en.svg?v=20261116">
-  <source media="(prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light-en.svg?v=20261116">
-  <img alt="penpen GitHub profile hero: desktop engineering, game development and AI agent workflows" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light-en.svg?v=20261116" width="100%">
+  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-dark-en.svg?v=20261116-2">
+  <source media="(max-width: 700px) and (prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-light-en.svg?v=20261116-2">
+  <source media="(prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-dark-en.svg?v=20261116-2">
+  <source media="(prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light-en.svg?v=20261116-2">
+  <img alt="penpen GitHub profile hero: desktop engineering, game development and AI agent workflows" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light-en.svg?v=20261116-2" width="100%">
 </picture>
 
 <div align="center">
 
 **`ZH` [Chinese ←](./README.md)**　·　**`EN` English · current**
 
-[`PORTFOLIO ↗`](https://stdwang.github.io/penpenWeb/)　·　[`PLAY GAMES ↗`](https://stdwang.github.io/)　·　[`CN MIRROR ↗`](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K)　·　[`CONTACT ↗`](mailto:1946262980@qq.com)
+[Portfolio](https://stdwang.github.io/penpenWeb/)　·　[Games](https://stdwang.github.io/)　·　[Blog](https://blog.csdn.net/qq_47898198)　·　[Email](mailto:1946262980@qq.com)
 
-`HUMAN` Explore the work and live demos below　·　`MACHINE` Read YAML / llms.txt at the bottom
+Projects and demos below　·　Structured AI profile at the bottom
 
 </div>
 
-## 01 // IDENTITY
+## 01 / Playable projects
 
-> **Shuaipeng Wang / penpen / @STDwang**
->
-> I started with **C++ / Qt desktop engineering**, expanded into **realtime interaction and games with Three.js, Godot and Blender**, and now bring **AI agent workflows** into the full path from idea and implementation to verification.
->
-> **Use AI to amplify engineering capability, not replace engineering judgement.**
+### APEX · MotorcycleHMI
 
-This profile is organized around **what you can open, experience and inspect**, not around a wall of technology labels.
+`Three.js` · `CAN / DBC` · `HMI`
 
-`LIVE` Interactive online work　·　`PREVIEW` Real page or application captures　·　`SOURCE` Code and engineering notes
+Browser-based 3D motorcycle riding and instrument laboratory, including racing, free practice, CAN signal decoding, fault injection and diagnostic export.
 
-## 02 // LIVE DEMOS
+**[Play online](https://stdwang.github.io/MotorcycleHMI/) · [Source code](https://github.com/STDwang/MotorcycleHMI)**<br>
+[China mirror](https://wbapp-5qspg4vbu8mo6se3cxxq2a.app.workbuddy.host/?sharecode=S7BRNCGVMQ)
 
-| EXPERIMENT | What you can experience | OPEN |
-| :-- | :-- | :-- |
-| **01 · APEX / MotorcycleHMI**<br>`Three.js` `CAN / DBC` `HMI` | Browser-based 3D motorcycle riding and a realtime instrument lab. Simulated CAN frames, signal decoding and a state machine drive the virtual TFT; includes racing, free practice, fault injection and diagnostic export. | **[LIVE ↗](https://stdwang.github.io/MotorcycleHMI/)**<br>[CN MIRROR](https://wbapp-5qspg4vbu8mo6se3cxxq2a.app.workbuddy.host/?sharecode=S7BRNCGVMQ) · [SOURCE](https://github.com/STDwang/MotorcycleHMI) |
-| **02 · mistloop / Fog Forest Loop**<br>`Three.js` `PROCEDURAL AUDIO` | A Silent Hill-inspired first-person horror short: a toroidal forest, a gaze-driven figure, and breathing and heartbeat that change with distance. Play in the browser; headphones recommended. | **[PLAY ↗](https://stdwang.github.io/mistloop/)**<br>[CN MIRROR](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/mistloop/?sharecode=QLTHCY272K) · [SOURCE](https://github.com/STDwang/mistloop) |
-| **03 · Dreamscape**<br>`Godot 4` `Blender` `GDScript` | An armored cat collects seven Memory Sparks in dream ruins. The repository contains the rebuilt 5–8 minute v2 exploration game; the online build remains a preserved v1 static showcase snapshot. | [V1 SNAPSHOT ↗](https://stdwang.github.io/dreamscape/)<br>[CN MIRROR](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/dreamscape/?sharecode=QLTHCY272K) · [SOURCE / V2](https://github.com/STDwang/Dreamscape) |
-| **ALL · Game Portal**<br>`WEB BUILDS` `MULTI-ENGINE` | One entry point for six games: five in-portal builds plus the independently deployed APEX. **Dark Fairy Tale** and **Meow Rice Family Feud** publish builds only; their source is private. | **[ALL GAMES ↗](https://stdwang.github.io/)**<br>[CN MIRROR](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K) · [GAME INDEX](https://stdwang.github.io/penpenWeb/games/) |
+### mistloop · Fog Forest Loop
 
-> Keep the `?sharecode=` parameter when using a mainland China mirror link.
+`Three.js` · `Procedural audio`
 
-## 03 // ENGINEERING & SYSTEMS
+A first-person horror short with a looping forest, gaze-triggered events and procedural audio. Play in the browser; headphones recommended.
 
-| SYSTEM | Verifiable output | OPEN |
-| :-- | :-- | :-- |
-| **01 · GPUView**<br>`C++17` `Qt 6 Widgets` | Million-event teaching timelines, async snapshots, precise selection statistics and PresentMon CSV analysis. This is an evolving performance-visualization learning project, **not a complete GPU profiler**. | [PREVIEW ↗](https://github.com/STDwang/GPUView/blob/main/assets/screenshots/compact-150.png)<br>[SOURCE](https://github.com/STDwang/GPUView) · [CASEBOOK](https://github.com/STDwang/GPUView/blob/main/docs/07-interview/CASEBOOK.md) |
-| **02 · penpenWeb**<br>`Next.js` `TypeScript` | Engineering portfolio, case studies, a personal lab and game archives. One content source drives both presentation and playable links, with real captures and release verification records. | **[LIVE ↗](https://stdwang.github.io/penpenWeb/)**<br>[SOURCE](https://github.com/STDwang/penpenWeb) · [RELEASE NOTES](https://github.com/STDwang/penpenWeb/blob/main/docs/09-release.md) |
-| **03 · BossAndCompany**<br>`Python` `AGENT SKILL` | A cross-AI personal-company protocol that turns project context, task snapshots and handoffs into a searchable, resumable structure, with strict separation between public projections and private profiles. | [SOURCE ↗](https://github.com/STDwang/BossAndCompany)<br>[DEVELOPMENT](https://github.com/STDwang/BossAndCompany/blob/main/DEVELOPMENT.md) · [INSTALL / USAGE](https://github.com/STDwang/BossAndCompany#%E5%AE%89%E8%A3%85) |
+**[Play online](https://stdwang.github.io/mistloop/) · [Source code](https://github.com/STDwang/mistloop)**<br>
+[China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/mistloop/?sharecode=QLTHCY272K)
 
-## 04 // HOW I BUILD
+### Dreamscape
 
-- **Desktop engineering** — Performance, observability and maintainability, backed by tests, measurements and code-reading entry points rather than implementation alone.
-- **Realtime and games** — From core loops and procedural assets to browser / engine builds, the result should be directly experienceable whenever possible.
-- **AI-assisted engineering** — Local Codex for pair programming, WorkBuddy for Skill / MCP / multi-agent workflows, DeepSeek for reasoning and long-context exploration; human judgement stays in the loop.
+`Godot 4` · `Blender` · `GDScript`
 
-<picture>
-  <source media="(max-width: 700px)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/ai-workflow-mobile-en.svg?v=20261116">
-  <img alt="Human-AI workflow: IDEA to PLAN to BUILD to VERIFY to SHIP, with human judgement in the loop" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/ai-workflow-en.svg?v=20261116" width="100%">
-</picture>
+A 3D exploration game about an armored cat collecting seven Memory Sparks. The repository contains v2; the online page preserves the v1 showcase snapshot.
 
-## 05 // TOOLCHAIN
+**[View v1 snapshot](https://stdwang.github.io/dreamscape/) · [View v2 source](https://github.com/STDwang/Dreamscape)**<br>
+[China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/dreamscape/?sharecode=QLTHCY272K)
 
-| LAYER | TOOLS |
+### Game portal
+
+Six games: five in-portal builds plus the independently deployed APEX. **Dark Fairy Tale** and **Meow Rice Family Feud** publish playable builds only; their source is private.
+
+**[Open game portal](https://stdwang.github.io/) · [View game archive](https://stdwang.github.io/penpenWeb/games/)**<br>
+[China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)
+
+> Keep the `?sharecode=` parameter when using a China mirror link.
+
+## 02 / Engineering projects
+
+### GPUView
+
+`C++17` · `Qt 6 Widgets`
+
+A performance-visualization learning project with million-event teaching timelines, async snapshots, selection statistics and PresentMon CSV analysis. It is not a complete GPU profiler.
+
+**[Source code](https://github.com/STDwang/GPUView) · [Application screenshot](https://github.com/STDwang/GPUView/blob/main/assets/screenshots/compact-150.png) · [Technical casebook](https://github.com/STDwang/GPUView/blob/main/docs/07-interview/CASEBOOK.md)**
+
+### penpenWeb
+
+`Next.js` · `TypeScript`
+
+Personal portfolio with engineering case studies, a lab, game archives, real page captures and release verification records.
+
+**[Visit portfolio](https://stdwang.github.io/penpenWeb/) · [Source code](https://github.com/STDwang/penpenWeb) · [Release notes](https://github.com/STDwang/penpenWeb/blob/main/docs/09-release.md)**<br>
+[China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K)
+
+### BossAndCompany
+
+`Python` · `Agent Skill`
+
+A cross-AI project collaboration protocol for preserving project context, task snapshots and handoffs while separating public information from private profiles.
+
+**[Source code](https://github.com/STDwang/BossAndCompany) · [Development guide](https://github.com/STDwang/BossAndCompany/blob/main/DEVELOPMENT.md)**
+
+## 03 / Tools
+
+| Area | Tools |
 | :-- | :-- |
-| **DESKTOP / SYSTEMS** | `C++` · `Qt Widgets` · `QML` · `CMake` · `TWAIN` |
-| **REALTIME / 3D** | `Three.js` · `Godot 4` · `Blender` · `Cocos` |
-| **WEB / AUTOMATION** | `TypeScript` · `Next.js` · `Python` · `GitHub Pages` |
-| **AI / AGENTS** | `Local Codex` · `WorkBuddy` · `DeepSeek` · `Skill` · `MCP` |
+| Desktop and systems | `C++` · `Qt Widgets` · `QML` · `CMake` · `TWAIN` |
+| Realtime and 3D | `Three.js` · `Godot 4` · `Blender` · `Cocos` |
+| Web and automation | `TypeScript` · `Next.js` · `Python` · `GitHub Pages` |
+| AI tools | `Local Codex` · `WorkBuddy` · `DeepSeek` · `Skill` · `MCP` |
 
-## 06 // CONNECT
+## 04 / Contact
 
-**Technical blog** [CSDN ↗](https://blog.csdn.net/qq_47898198)　·　**Email** [1946262980@qq.com](mailto:1946262980@qq.com)　·　**Collaboration** Issues / PRs welcome
+Blog: [CSDN](https://blog.csdn.net/qq_47898198)<br>
+Email: [1946262980@qq.com](mailto:1946262980@qq.com)
 
 <details>
-<summary><code>OPTIONAL / CONTRIBUTION SIGNAL</code></summary>
+<summary>Contributions and profile views</summary>
 
 <br>
 
@@ -126,8 +150,8 @@ This profile is organized around **what you can open, experience and inspect**, 
 | [`AI.en.md`](./AI.en.md) | **AI Agent (English)** · reading order, precedence and inference limits |
 | [`ai/profile.yaml`](./ai/profile.yaml) | **AI / programs** · the single authoritative structured public profile |
 | [`llms.txt`](./llms.txt) | **AI / crawlers** · discovery index for machine-readable files and live demos |
-| [`README.md`](./README.md) | **Humans (Chinese default)** · work, story, visuals and links |
-| [`README.en.md`](./README.en.md) | **Humans (English)** · work, story, visuals and links |
+| [`README.md`](./README.md) | **Humans (Chinese default)** · project descriptions and access links |
+| [`README.en.md`](./README.en.md) | **Humans (English)** · project descriptions and access links |
 
 - Use public information only; do not infer city, phone number, education, employer, salary or private repository content.
 - Cite projects using `projects[].repository` / `projects[].demo` / `projects[].demo_status` from the YAML.

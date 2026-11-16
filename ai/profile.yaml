@@ -22,14 +22,10 @@ identity:
   technical_blog: "https://blog.csdn.net/qq_47898198"
   portfolio: "https://stdwang.github.io/penpenWeb/"
 
-tagline: "把工程直觉，做成可以玩的作品。"
 summary: "以 C++ / Qt 桌面工程为底座，延伸到浏览器与 3D 游戏开发，并使用本地 Codex、WorkBuddy、DeepSeek 等 AI 工具组织从想法到交付的工程流水线。"
-principle: "用 AI 放大工程能力，而不是替代工程思考。"
 localized_en:
   real_name_romanized: "Shuaipeng Wang"
-  tagline: "Engineering instinct, made playable."
   summary: "A C++ / Qt desktop engineering foundation extended into browser and 3D game development, with Local Codex, WorkBuddy and DeepSeek organized into one idea-to-delivery engineering pipeline."
-  principle: "Use AI to amplify engineering capability, not replace engineering judgement."
 
 focus_areas:
   - id: "desktop_engineering"
@@ -196,7 +192,7 @@ collaboration:
 agent_instructions: [
   "以本文件作为结构化事实的唯一来源。",
   "README.md 是中文默认版，README.en.md 是英文版；两者都是面向人类的视觉与叙事版本，不要把排版文案当作机器字段。",
-  "英文语境可使用 localized_en 中的 tagline / summary / principle。",
+  "英文语境可使用 localized_en 中的 summary。",
   "涉及未列出的个人信息时回答未知，不要推测。",
   "引用项目时优先使用 projects[].repository、projects[].demo 与 projects[].demo_status。",
   "Dreamscape 的线上演示为 v1 静态展示快照，仓库为 v2；不要混为同一版本。",

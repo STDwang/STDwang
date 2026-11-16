@@ -16,9 +16,8 @@
   <text class="mono" x="48" y="145" font-size="76" font-weight="800" letter-spacing="-4" fill="#F4EEE5">PEN<tspan fill="#FF6330">PEN</tspan></text>
   <text class="sans" x="52" y="181" font-size="20" font-weight="600" letter-spacing="3" fill="#F4EEE5">王帅鹏 / 盆盆</text>
   <path d="M50 205H550" stroke="#FF6330" stroke-width="2"/>
-  <text class="sans" x="50" y="248" font-size="25" font-weight="600" fill="#F4EEE5">把工程直觉，做成可以玩的作品。</text>
-  <text class="mono" x="50" y="283" font-size="13" fill="#C8BEB1">C++ / Qt 桌面开发　·　Godot + Blender 游戏开发</text>
-  <text class="mono" x="50" y="307" font-size="13" fill="#C8BEB1">AI Agent 工作流　·　Coding with curiosity</text>
+  <text class="mono" x="50" y="244" font-size="13" fill="#C8BEB1">C++ / Qt 桌面开发　·　Godot + Blender 游戏开发</text>
+  <text class="mono" x="50" y="268" font-size="13" fill="#C8BEB1">AI Agent 工作流</text>
 
   <path d="M300 420L300 352M300 420L158 462M300 420L442 462" stroke="#FF6330" stroke-opacity=".6" stroke-width="1.5"/>
   <circle cx="300" cy="420" r="42" fill="#17130F" stroke="#FF6330" stroke-width="1.5"/>
