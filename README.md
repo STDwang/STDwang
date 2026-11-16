@@ -135,3 +135,14 @@
 </details>
 
 <!-- AI-READER-ZONE:END -->
+
+
+<!-- BossAndCompany:begin -->
+## BossAndCompany 工作入口
+
+本仓库是个人公司的公开主页入口。公开项目与展示以本页及 [作品集主站](https://stdwang.github.io/penpenWeb/) 为准；Boss 私密档案、公司空间、工作事件、本地 checkout 身份和凭证不进入公开仓库。
+
+项目身份统一使用 `owner/repo`。多个本地 checkout 与 AI Harness 可以协作同一个项目：各自只追加独立工作区登记和事件，由明确协调者维护唯一任务快照。后续接手者应先读取项目规则与公司空间中的最新状态。
+
+个人公司管理由本仓库的 WorkBuddy 技能 `boss-and-company` v2 执行；网站复用与改动按用户当前决定执行。
+<!-- BossAndCompany:end -->
