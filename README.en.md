@@ -2,11 +2,11 @@
 <!-- HUMAN-READABLE-PROFILE-EN:START -->
 
 <picture>
-  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-dark-en.svg?v=20261116-2">
-  <source media="(max-width: 700px) and (prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-light-en.svg?v=20261116-2">
-  <source media="(prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-dark-en.svg?v=20261116-2">
-  <source media="(prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light-en.svg?v=20261116-2">
-  <img alt="penpen GitHub profile hero: desktop engineering, game development and AI agent workflows" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light-en.svg?v=20261116-2" width="100%">
+  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-mobile-dark-en.svg?v=20261116-2">
+  <source media="(max-width: 700px) and (prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-mobile-light-en.svg?v=20261116-2">
+  <source media="(prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-dark-en.svg?v=20261116-2">
+  <source media="(prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-light-en.svg?v=20261116-2">
+  <img alt="penpen GitHub profile hero: desktop engineering, game development and AI agent workflows" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-light-en.svg?v=20261116-2" width="100%">
 </picture>
 
 <div align="center">

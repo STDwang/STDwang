@@ -2,11 +2,11 @@
 <!-- HUMAN-READABLE-PROFILE:START -->
 
 <picture>
-  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-dark.svg?v=20261116-2">
-  <source media="(max-width: 700px) and (prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-light.svg?v=20261116-2">
-  <source media="(prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-dark.svg?v=20261116-2">
-  <source media="(prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light.svg?v=20261116-2">
-  <img alt="penpen · 王帅鹏的 GitHub 主页头图：桌面工程、游戏开发与 AI Agent 三条技术路线" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light.svg?v=20261116-2" width="100%">
+  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-mobile-dark.svg?v=20261116-2">
+  <source media="(max-width: 700px) and (prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-mobile-light.svg?v=20261116-2">
+  <source media="(prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-dark.svg?v=20261116-2">
+  <source media="(prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-light.svg?v=20261116-2">
+  <img alt="penpen · 王帅鹏的 GitHub 主页头图：桌面工程、游戏开发与 AI Agent 三条技术路线" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@d49c7ff4dc0544b5a0e95e2e0b36a8afe6d2a75b/assets/hero-light.svg?v=20261116-2" width="100%">
 </picture>
 
 <div align="center">
