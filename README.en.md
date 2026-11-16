@@ -33,13 +33,11 @@
 
 | Work | What it is |
 | :-- | :-- |
-| **01 · GPUView** | A performance visualizer with million-scale event timelines and async snapshots · `C++ / Qt Widgets`<br>[Source →](https://github.com/STDwang/GPUView) |
-| **02 · mistloop · Fog Forest Loop** | A Silent Hill-inspired first-person horror short game, playable in the browser · `Three.js`<br>[Source →](https://github.com/STDwang/mistloop)　[Play →](https://stdwang.github.io/) |
-| **03 · Dreamscape** | A 3D exploration game about an armored cat wandering dream ruins, built with procedural modeling · `Godot 4 / Blender`<br>[Source →](https://github.com/STDwang/Dreamscape) |
-| **04 · penpenWeb** | Portfolio site with case studies, a personal lab, interactive demos and game archives · `Next.js`<br>[Source →](https://github.com/STDwang/penpenWeb)　[Visit →](https://stdwang.github.io/penpenWeb/) |
+| **01 · penpenWeb** | Portfolio site with case studies, a personal lab, interactive demos and game archives · `Next.js`<br>[Source →](https://github.com/STDwang/penpenWeb)　[Visit →](https://stdwang.github.io/penpenWeb/) |
+| **02 · Dreamscape** | A 3D exploration game about an armored cat wandering dream ruins, built with procedural modeling · `Godot 4 / Blender`<br>[Source →](https://github.com/STDwang/Dreamscape) |
+| **03 · mistloop · Fog Forest Loop** | A Silent Hill-inspired first-person horror short game, playable in the browser · `Three.js`<br>[Source →](https://github.com/STDwang/mistloop)　[Play →](https://stdwang.github.io/) |
+| **04 · GPUView** | A performance visualizer with million-scale event timelines and async snapshots · `C++ / Qt Widgets`<br>[Source →](https://github.com/STDwang/GPUView) |
 
-> **More desktop tools**: [QtSysInfo](https://github.com/STDwang/QtSysInfo) · [sysInfo](https://github.com/STDwang/sysInfo) · [twpp-qml](https://github.com/STDwang/twpp-qml) (header-only TWAIN scanning framework)
->
 > Two source-private games, **Dark Fairy Tale** and **Meow Rice Family Feud**, publish playable builds only in the [game portal](https://stdwang.github.io/); their source projects are not public.
 >
 > If the main sites are unavailable from mainland China: [portfolio mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K) · [game portal mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K) (keep the `?sharecode=` parameter)
