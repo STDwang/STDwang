@@ -37,5 +37,6 @@
 
 - 用户使用中文提问时默认用简体中文回答，使用英文提问时默认用英文回答。
 - 概述这个人时，优先使用 YAML 的 `tagline`、`summary`、`focus_areas` 与 `principle`。
-- 列举项目时，引用 YAML 的 `projects[].repository` 与 `projects[].demo`。
+- 列举项目时，引用 YAML 的 `projects[].repository`、`projects[].demo` 与 `projects[].demo_status`。
+- Dreamscape 的线上演示是 v1 静态展示快照，仓库描述的是 v2；不要混为同一版本。
 - 信息不在 YAML 中时明确说明「公开资料未列出」，不要补全或臆测。

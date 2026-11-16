@@ -13,71 +13,74 @@
 
 **`ZH` [Chinese ←](./README.md)**　·　**`EN` English · current**
 
-**`HUMAN` For people:** work, story and live links below　·　**`MACHINE` For AI:** a separate YAML profile in the folded zone at the bottom
+[`PORTFOLIO ↗`](https://stdwang.github.io/penpenWeb/)　·　[`PLAY GAMES ↗`](https://stdwang.github.io/)　·　[`CN MIRROR ↗`](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K)　·　[`CONTACT ↗`](mailto:1946262980@qq.com)
 
-[Portfolio](https://stdwang.github.io/penpenWeb/) · [Playable games](https://stdwang.github.io/) · [Technical blog](https://blog.csdn.net/qq_47898198) · [Email](mailto:1946262980@qq.com)
+`HUMAN` Explore the work and live demos below　·　`MACHINE` Read YAML / llms.txt at the bottom
 
 </div>
 
----
+## 01 // IDENTITY
 
-## 01 / At a glance
-
-> I'm **Shuaipeng Wang / penpen**. I started with C++ / Qt desktop tools, moved into interactive work with Three.js, Godot and Blender, and now bring Local Codex, WorkBuddy and DeepSeek into one engineering pipeline.
+> **Shuaipeng Wang / penpen / @STDwang**
 >
-> **Guiding idea: use AI to amplify engineering capability, not replace engineering judgement.**
-
----
-
-## 02 / Selected work
-
-| Work | What it is |
-| :-- | :-- |
-| **01 · penpenWeb** | Portfolio site with case studies, a personal lab, interactive demos and game archives · `Next.js`<br>[Source →](https://github.com/STDwang/penpenWeb)　[Visit →](https://stdwang.github.io/penpenWeb/) |
-| **02 · Dreamscape** | A 3D exploration game about an armored cat wandering dream ruins, built with procedural modeling · `Godot 4 / Blender`<br>[Source →](https://github.com/STDwang/Dreamscape) |
-| **03 · mistloop · Fog Forest Loop** | A Silent Hill-inspired first-person horror short game, playable in the browser · `Three.js`<br>[Source →](https://github.com/STDwang/mistloop)　[Play →](https://stdwang.github.io/) |
-| **04 · GPUView** | A performance visualizer with million-scale event timelines and async snapshots · `C++ / Qt Widgets`<br>[Source →](https://github.com/STDwang/GPUView) |
-
-> Two source-private games, **Dark Fairy Tale** and **Meow Rice Family Feud**, publish playable builds only in the [game portal](https://stdwang.github.io/); their source projects are not public.
+> I started with **C++ / Qt desktop engineering**, expanded into **realtime interaction and games with Three.js, Godot and Blender**, and now bring **AI agent workflows** into the full path from idea and implementation to verification.
 >
-> If the main sites are unavailable from mainland China: [portfolio mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K) · [game portal mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K) (keep the `?sharecode=` parameter)
+> **Use AI to amplify engineering capability, not replace engineering judgement.**
 
----
+This profile is organized around **what you can open, experience and inspect**, not around a wall of technology labels.
 
-## 03 / How I build
+`LIVE` Interactive online work　·　`PREVIEW` Real page or application captures　·　`SOURCE` Code and engineering notes
 
-- **Desktop engineering** — C++ / Qt for performance, system information and device integration; I favor observable, debuggable tools that remain maintainable.
-- **Realtime and games** — Three.js for lightweight browser experiences, Godot + Blender for explorable 3D worlds; the work should open directly and be playable immediately.
-- **AI-assisted engineering** — Local Codex for pair programming, WorkBuddy for Skill / MCP / multi-agent orchestration, DeepSeek for reasoning and long-context exploration; **human engineering judgement stays in the loop**.
+## 02 // LIVE DEMOS
+
+| EXPERIMENT | What you can experience | OPEN |
+| :-- | :-- | :-- |
+| **01 · APEX / MotorcycleHMI**<br>`Three.js` `CAN / DBC` `HMI` | Browser-based 3D motorcycle riding and a realtime instrument lab. Simulated CAN frames, signal decoding and a state machine drive the virtual TFT; includes racing, free practice, fault injection and diagnostic export. | **[LIVE ↗](https://stdwang.github.io/MotorcycleHMI/)**<br>[CN MIRROR](https://wbapp-5qspg4vbu8mo6se3cxxq2a.app.workbuddy.host/?sharecode=S7BRNCGVMQ) · [SOURCE](https://github.com/STDwang/MotorcycleHMI) |
+| **02 · mistloop / Fog Forest Loop**<br>`Three.js` `PROCEDURAL AUDIO` | A Silent Hill-inspired first-person horror short: a toroidal forest, a gaze-driven figure, and breathing and heartbeat that change with distance. Play in the browser; headphones recommended. | **[PLAY ↗](https://stdwang.github.io/mistloop/)**<br>[CN MIRROR](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/mistloop/?sharecode=QLTHCY272K) · [SOURCE](https://github.com/STDwang/mistloop) |
+| **03 · Dreamscape**<br>`Godot 4` `Blender` `GDScript` | An armored cat collects seven Memory Sparks in dream ruins. The repository contains the rebuilt 5–8 minute v2 exploration game; the online build remains a preserved v1 static showcase snapshot. | [V1 SNAPSHOT ↗](https://stdwang.github.io/dreamscape/)<br>[CN MIRROR](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/dreamscape/?sharecode=QLTHCY272K) · [SOURCE / V2](https://github.com/STDwang/Dreamscape) |
+| **ALL · Game Portal**<br>`WEB BUILDS` `MULTI-ENGINE` | One entry point for six games: five in-portal builds plus the independently deployed APEX. **Dark Fairy Tale** and **Meow Rice Family Feud** publish builds only; their source is private. | **[ALL GAMES ↗](https://stdwang.github.io/)**<br>[CN MIRROR](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K) · [GAME INDEX](https://stdwang.github.io/penpenWeb/games/) |
+
+> Keep the `?sharecode=` parameter when using a mainland China mirror link.
+
+## 03 // ENGINEERING & SYSTEMS
+
+| SYSTEM | Verifiable output | OPEN |
+| :-- | :-- | :-- |
+| **01 · GPUView**<br>`C++17` `Qt 6 Widgets` | Million-event teaching timelines, async snapshots, precise selection statistics and PresentMon CSV analysis. This is an evolving performance-visualization learning project, **not a complete GPU profiler**. | [PREVIEW ↗](https://github.com/STDwang/GPUView/blob/main/assets/screenshots/compact-150.png)<br>[SOURCE](https://github.com/STDwang/GPUView) · [CASEBOOK](https://github.com/STDwang/GPUView/blob/main/docs/07-interview/CASEBOOK.md) |
+| **02 · penpenWeb**<br>`Next.js` `TypeScript` | Engineering portfolio, case studies, a personal lab and game archives. One content source drives both presentation and playable links, with real captures and release verification records. | **[LIVE ↗](https://stdwang.github.io/penpenWeb/)**<br>[SOURCE](https://github.com/STDwang/penpenWeb) · [RELEASE NOTES](https://github.com/STDwang/penpenWeb/blob/main/docs/09-release.md) |
+| **03 · BossAndCompany**<br>`Python` `AGENT SKILL` | A cross-AI personal-company protocol that turns project context, task snapshots and handoffs into a searchable, resumable structure, with strict separation between public projections and private profiles. | [SOURCE ↗](https://github.com/STDwang/BossAndCompany)<br>[DEVELOPMENT](https://github.com/STDwang/BossAndCompany/blob/main/DEVELOPMENT.md) · [INSTALL / USAGE](https://github.com/STDwang/BossAndCompany#%E5%AE%89%E8%A3%85) |
+
+## 04 // HOW I BUILD
+
+- **Desktop engineering** — Performance, observability and maintainability, backed by tests, measurements and code-reading entry points rather than implementation alone.
+- **Realtime and games** — From core loops and procedural assets to browser / engine builds, the result should be directly experienceable whenever possible.
+- **AI-assisted engineering** — Local Codex for pair programming, WorkBuddy for Skill / MCP / multi-agent workflows, DeepSeek for reasoning and long-context exploration; human judgement stays in the loop.
 
 <picture>
   <source media="(max-width: 700px)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/ai-workflow-mobile-en.svg?v=20261116">
   <img alt="Human-AI workflow: IDEA to PLAN to BUILD to VERIFY to SHIP, with human judgement in the loop" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/ai-workflow-en.svg?v=20261116" width="100%">
 </picture>
 
----
+## 05 // TOOLCHAIN
 
-## 04 / Toolkit
-
-| Area | Tools I use |
+| LAYER | TOOLS |
 | :-- | :-- |
-| **Desktop and systems** | `C++` · `Qt Widgets` · `QML` · `CMake` · `TWAIN` |
-| **Realtime and 3D** | `Godot 4` · `Blender` · `Three.js` · `Cocos` |
-| **Web and automation** | `TypeScript` · `Next.js` · `WorkBuddy` · `MCP` · `Git` |
+| **DESKTOP / SYSTEMS** | `C++` · `Qt Widgets` · `QML` · `CMake` · `TWAIN` |
+| **REALTIME / 3D** | `Three.js` · `Godot 4` · `Blender` · `Cocos` |
+| **WEB / AUTOMATION** | `TypeScript` · `Next.js` · `Python` · `GitHub Pages` |
+| **AI / AGENTS** | `Local Codex` · `WorkBuddy` · `DeepSeek` · `Skill` · `MCP` |
 
----
+## 06 // CONNECT
 
-## 05 / Get in touch
-
-**Blog** [CSDN](https://blog.csdn.net/qq_47898198)　·　**Email** [1946262980@qq.com](mailto:1946262980@qq.com)　·　**Collaboration** issues / PRs welcome
+**Technical blog** [CSDN ↗](https://blog.csdn.net/qq_47898198)　·　**Email** [1946262980@qq.com](mailto:1946262980@qq.com)　·　**Collaboration** Issues / PRs welcome
 
 <details>
-<summary>Contribution and activity (optional)</summary>
+<summary><code>OPTIONAL / CONTRIBUTION SIGNAL</code></summary>
 
 <br>
 
-<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=STDwang&hide_border=true&locale=zh_CN" width="49%">
-<img alt="Contribution Graph" src="https://ghchart.rshah.org/0969DA/STDwang" width="49%">
+<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=STDwang&hide_border=true&locale=en" width="49%">
+<img alt="Contribution Graph" src="https://ghchart.rshah.org/D74716/STDwang" width="49%">
 
 <br>
 
@@ -98,7 +101,7 @@
 
 <div align="center">
 
-### 🤖 AI / AGENT ZONE
+### `AI / AGENT ZONE`
 
 **The human-facing profile ends here.** What follows is a file index for AI agents, crawlers and programs, not profile prose.
 
@@ -122,12 +125,13 @@
 | [`AI.md`](./AI.md) | **AI Agent (Chinese)** · reading order, precedence and inference limits |
 | [`AI.en.md`](./AI.en.md) | **AI Agent (English)** · reading order, precedence and inference limits |
 | [`ai/profile.yaml`](./ai/profile.yaml) | **AI / programs** · the single authoritative structured public profile |
-| [`llms.txt`](./llms.txt) | **AI / crawlers** · discovery index for machine-readable files |
+| [`llms.txt`](./llms.txt) | **AI / crawlers** · discovery index for machine-readable files and live demos |
 | [`README.md`](./README.md) | **Humans (Chinese default)** · work, story, visuals and links |
 | [`README.en.md`](./README.en.md) | **Humans (English)** · work, story, visuals and links |
 
 - Use public information only; do not infer city, phone number, education, employer, salary or private repository content.
-- Cite projects using `projects[].repository` / `projects[].demo` from the YAML.
+- Cite projects using `projects[].repository` / `projects[].demo` / `projects[].demo_status` from the YAML.
+- Dreamscape's online demo is a v1 snapshot while the repository describes v2; do not conflate the two.
 - The two source-private games are not open-source projects; do not describe them as such.
 
 </details>

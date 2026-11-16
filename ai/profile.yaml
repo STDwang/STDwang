@@ -1,4 +1,4 @@
-schema_version: "1.1"
+schema_version: "1.2"
 record_type: "public_developer_profile"
 document_role: "canonical_machine_readable_profile"
 last_updated: "2026-11-16"
@@ -62,41 +62,75 @@ ai_toolchain:
     role: "国产模型探索：推理、长文本与本地化试验"
 
 projects:
-  - id: "penpenweb"
-    name: "penpenWeb"
-    category: "web_portfolio"
-    summary: "工程作品集主站，包含案例研究、个人实验室、交互演示与游戏档案"
-    stack: ["Next.js", "TypeScript"]
-    repository: "https://github.com/STDwang/penpenWeb"
-    demo: "https://stdwang.github.io/penpenWeb/"
-    source_visibility: "public"
-  - id: "dreamscape"
-    name: "Dreamscape"
+  - id: "motorcycle_hmi"
+    name: "APEX · MotorcycleHMI"
     category: "interactive_games"
-    summary: "盔甲小猫探索梦境废墟的 3D 探索游戏，结合程序化建模"
-    stack: ["Godot 4", "Blender"]
-    repository: "https://github.com/STDwang/Dreamscape"
+    summary: "浏览器 3D 摩托骑行与实时 HMI 实验台；车辆状态经模拟 CAN 报文、信号解码与状态机驱动虚拟 TFT"
+    stack: ["Three.js", "JavaScript", "CAN", "DBC"]
+    repository: "https://github.com/STDwang/MotorcycleHMI"
+    demo: "https://stdwang.github.io/MotorcycleHMI/"
+    demo_status: "current_interactive_build"
+    demo_mirror_cn: "https://wbapp-5qspg4vbu8mo6se3cxxq2a.app.workbuddy.host/?sharecode=S7BRNCGVMQ"
     source_visibility: "public"
   - id: "mistloop"
     name: "mistloop · 雾林回环"
     category: "interactive_games"
-    summary: "寂静岭式第一人称恐怖短片游戏，浏览器可玩"
+    summary: "寂静岭式第一人称恐怖短片游戏；环面森林、视线驱动的身影与程序化声音，浏览器可玩"
     stack: ["Three.js", "JavaScript"]
     repository: "https://github.com/STDwang/mistloop"
-    demo: "https://stdwang.github.io/"
+    demo: "https://stdwang.github.io/mistloop/"
+    demo_status: "current_interactive_build"
+    demo_mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/mistloop/?sharecode=QLTHCY272K"
+    source_visibility: "public"
+  - id: "dreamscape"
+    name: "Dreamscape · 醒梦"
+    category: "interactive_games"
+    summary: "盔甲小猫收集七颗记忆星火的 3D 探索游戏；仓库为 5–8 分钟可通关的 v2，线上保留 v1 静态展示快照"
+    stack: ["Godot 4", "Blender", "GDScript"]
+    repository: "https://github.com/STDwang/Dreamscape"
+    demo: "https://stdwang.github.io/dreamscape/"
+    demo_status: "v1_static_showcase_snapshot_repository_contains_v2"
+    demo_mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/dreamscape/?sharecode=QLTHCY272K"
+    source_visibility: "public"
+  - id: "penpenweb"
+    name: "penpenWeb"
+    category: "web_portfolio"
+    summary: "工程作品集主站，包含案例研究、个人实验室、交互演示、游戏档案与发布验证记录"
+    stack: ["Next.js", "TypeScript"]
+    repository: "https://github.com/STDwang/penpenWeb"
+    demo: "https://stdwang.github.io/penpenWeb/"
+    demo_status: "current_static_site"
+    demo_mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K"
+    game_archive: "https://stdwang.github.io/penpenWeb/games/"
+    release_notes: "https://github.com/STDwang/penpenWeb/blob/main/docs/09-release.md"
     source_visibility: "public"
   - id: "gpuview"
     name: "GPUView"
     category: "desktop_engineering"
-    summary: "百万级事件时间线与异步快照的性能可视化分析器"
-    stack: ["C++", "Qt Widgets"]
+    summary: "C++17 / Qt 6 Widgets 性能可视化学习项目：百万教学事件时间线、异步快照、精确选区统计与 PresentMon CSV 分析；不是完整 GPU Profiler"
+    stack: ["C++17", "Qt 6 Widgets"]
     repository: "https://github.com/STDwang/GPUView"
+    preview: "https://github.com/STDwang/GPUView/blob/main/assets/screenshots/compact-150.png"
+    casebook: "https://github.com/STDwang/GPUView/blob/main/docs/07-interview/CASEBOOK.md"
+    source_visibility: "public"
+  - id: "boss_and_company"
+    name: "BossAndCompany"
+    category: "ai_assisted_engineering"
+    summary: "跨 AI 平台的个人公司 Agent Skill 与协作协议；沉淀项目上下文、任务快照和交接记录，公开投影与私有档案严格分离"
+    stack: ["Python", "Agent Skill"]
+    repository: "https://github.com/STDwang/BossAndCompany"
+    development_guide: "https://github.com/STDwang/BossAndCompany/blob/main/DEVELOPMENT.md"
     source_visibility: "public"
 
 game_portal:
   name: "游戏橱窗"
-  summary: "四款游戏的浏览器试玩入口；其中两款游戏仅发布构建产物，源码私有"
+  summary: "六款游戏的浏览器试玩入口：五款站内构建与独立部署的 APEX；其中两款游戏仅发布构建产物，源码私有"
   url: "https://stdwang.github.io/"
+  mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K"
+  game_archive: "https://stdwang.github.io/penpenWeb/games/"
+  build_repository: "https://github.com/STDwang/STDwang.github.io"
+  in_portal_builds: ["bigfatfish", "darkfairytale", "dreamscape", "meowmatch", "mistloop"]
+  independently_deployed_games: ["APEX · MotorcycleHMI"]
   games_with_private_source: ["黑暗童话", "喵饭家族争夺战"]
 
 language_switch:
@@ -164,6 +198,7 @@ agent_instructions: [
   "README.md 是中文默认版，README.en.md 是英文版；两者都是面向人类的视觉与叙事版本，不要把排版文案当作机器字段。",
   "英文语境可使用 localized_en 中的 tagline / summary / principle。",
   "涉及未列出的个人信息时回答未知，不要推测。",
-  "引用项目时优先使用 projects[].repository 与 projects[].demo。",
+  "引用项目时优先使用 projects[].repository、projects[].demo 与 projects[].demo_status。",
+  "Dreamscape 的线上演示为 v1 静态展示快照，仓库为 v2；不要混为同一版本。",
   "不要把两款源码私有游戏描述为开源项目。"
 ]

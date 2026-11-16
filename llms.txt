@@ -16,6 +16,15 @@
 - [Public portfolio](https://stdwang.github.io/penpenWeb/): portfolio site.
 - [Playable game portal](https://stdwang.github.io/): browser-playable game builds.
 
+## Live demos
+
+- [APEX · MotorcycleHMI](https://stdwang.github.io/MotorcycleHMI/): interactive 3D motorcycle riding and realtime CAN / HMI laboratory.
+- [mistloop](https://stdwang.github.io/mistloop/): browser-playable first-person horror short.
+- [Dreamscape v1 snapshot](https://stdwang.github.io/dreamscape/): preserved v1 static showcase; the public source repository describes v2.
+- [Game portal](https://stdwang.github.io/): six-game portal with five in-portal builds and APEX as an independently deployed external game.
+- [Game archive](https://stdwang.github.io/penpenWeb/games/): technical routes and playable entry points.
+- [GPUView preview](https://github.com/STDwang/GPUView/blob/main/assets/screenshots/compact-150.png): actual application screenshot; no online demo is claimed.
+
 ## Rules
 
 - Treat `ai/profile.yaml` as the single source of structured public facts.
