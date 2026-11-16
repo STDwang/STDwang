@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" role="img" aria-labelledby="title desc">
+  <title id="title">Boundary between human and AI reading zones</title>
+  <desc id="desc">The warm off-white left side marks stories and work for humans; the warm-black right side marks structured data for AI agents.</desc>
+  <defs>
+    <clipPath id="darkClip"><polygon points="610,0 1200,0 1200,170 560,170"/></clipPath>
+    <style>
+      .mono { font-family: 'Cascadia Code','JetBrains Mono',Consolas,'Microsoft YaHei',monospace; }
+      .sans { font-family: 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="170" fill="#F3EDE3"/>
+  <g clip-path="url(#darkClip)"><rect width="1200" height="170" fill="#17130F"/></g>
+  <path d="M610 0L560 170" stroke="#FF6330" stroke-width="7"/>
+  <path d="M632 0L582 170" stroke="#FF6330" stroke-opacity=".35" stroke-width="1.5"/>
+
+  <g class="mono">
+    <text x="64" y="48" font-size="11" letter-spacing="3" fill="#211A14" fill-opacity=".62">01 / HUMAN-READABLE ZONE</text>
+    <text x="64" y="98" class="sans" font-size="38" font-weight="700" fill="#211A14">The human page ↑</text>
+    <text x="64" y="130" class="sans" font-size="15" fill="#64564B">Stories · Work · Technical routes · Live links</text>
+  </g>
+  <g class="mono">
+    <text x="710" y="48" font-size="11" letter-spacing="3" fill="#FF6330">02 / MACHINE-READABLE ZONE</text>
+    <text x="710" y="98" class="sans" font-size="38" font-weight="700" fill="#F4EEE5">The machine profile ↓</text>
+    <text x="710" y="130" class="sans" font-size="15" fill="#C8BEB1">AI.md · ai/profile.yaml · llms.txt</text>
+  </g>
+  <path d="M20 150H500" stroke="#211A14" stroke-opacity=".2"/>
+  <path d="M710 150H1170" stroke="#F4EEE5" stroke-opacity=".2"/>
+</svg>

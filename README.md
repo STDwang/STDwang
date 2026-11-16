@@ -1,114 +1,137 @@
-<div align="center">
+<!-- AI_READER_NOTICE: README.md is the Chinese default human-facing profile. English version: README.en.md. Canonical machine data: ai/profile.yaml. -->
+<!-- HUMAN-READABLE-PROFILE:START -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&center=true&vCenter=true&width=760&color=70A5FD&lines=Hi%2C+I%27m+penpen+%28%E7%8E%8B%E5%B8%85%E9%B9%8F%29+%F0%9F%91%8B+C%2B%2B+%2F+Qt+%E6%A1%8C%E9%9D%A2%E5%BC%80%E5%8F%91+%C2%B7+%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91+Godot+%2B+Blender+%C2%B7+Three.js+%C2%B7+Next.js+%E7%94%A8%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF+%C2%B7+Coding+with+curiosity">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&center=true&vCenter=true&width=760&color=0969DA&lines=Hi%2C+I%27m+penpen+%28%E7%8E%8B%E5%B8%85%E9%B9%8F%29+%F0%9F%91%8B+C%2B%2B+%2F+Qt+%E6%A1%8C%E9%9D%A2%E5%BC%80%E5%8F%91+%C2%B7+%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91+Godot+%2B+Blender+%C2%B7+Three.js+%C2%B7+Next.js+%E7%94%A8%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF+%C2%B7+Coding+with+curiosity">
-  <img alt="Hi, I'm penpen" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&center=true&vCenter=true&width=760&color=0969DA&lines=Hi%2C+I%27m+penpen+%28%E7%8E%8B%E5%B8%85%E9%B9%8F%29+%F0%9F%91%8B+C%2B%2B+%2F+Qt+%E6%A1%8C%E9%9D%A2%E5%BC%80%E5%8F%91+%C2%B7+%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91+Godot+%2B+Blender+%C2%B7+Three.js+%C2%B7+Next.js+%E7%94%A8%E4%BB%A3%E7%A0%81%E6%9E%84%E5%BB%BA%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF+%C2%B7+Coding+with+curiosity">
+  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-dark.svg?v=20261116">
+  <source media="(max-width: 700px) and (prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-mobile-light.svg?v=20261116">
+  <source media="(prefers-color-scheme: dark)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-dark.svg?v=20261116">
+  <source media="(prefers-color-scheme: light)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light.svg?v=20261116">
+  <img alt="penpen · 王帅鹏的 GitHub 主页头图：桌面工程、游戏开发与 AI Agent 三条技术路线" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/hero-light.svg?v=20261116" width="100%">
 </picture>
 
-**本主页为「人 + AI」双读档案：人类读者看故事与作品，AI Agent 可解析下方机器可读摘要。**
+<div align="center">
+
+**`ZH` 中文 · 默认**　·　**`EN` [English →](./README.en.md)**
+
+**`HUMAN` 给人类看：** 作品、故事与可点击入口，向下阅读　·　**`MACHINE` 给 AI 看：** 独立 YAML 档案，位于底部折叠区
+
+[作品集主站](https://stdwang.github.io/penpenWeb/) · [游戏橱窗](https://stdwang.github.io/) · [技术博客](https://blog.csdn.net/qq_47898198) · [邮件联系](mailto:1946262980@qq.com)
 
 </div>
 
-### 🔗 快速入口
+---
 
-- 🏠 **个人作品集（主站）**：[https://stdwang.github.io/penpenWeb/](https://stdwang.github.io/penpenWeb/) ｜ [国内镜像](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K)
-- 🎮 **游戏档案 · 四条技术路线**：[/games 四款游戏介绍与试玩](https://stdwang.github.io/penpenWeb/games/)
-- 🕹️ **游戏橱窗 · 打开即玩**：[GitHub Pages 主站](https://stdwang.github.io/) ｜ [国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)（国内访问主站不稳定时点这个，请保留 `?sharecode=` 参数）
+## 01 / 一句话认识我
 
-> 两款源码私有游戏（黑暗童话、喵饭家族争夺战）只发布构建产物供试玩，不公开源码工程。
+> 我是 **王帅鹏 / penpen**。从 C++ / Qt 桌面工具出发，延伸到 Three.js、Godot 与 Blender 的交互作品；现在把本地 Codex、WorkBuddy、DeepSeek 纳入同一条工程流水线。
+>
+> **主线：用 AI 放大工程能力，而不是替代工程思考。**
 
-### 🌳 AI 学习探索之路
+---
+
+## 02 / 精选作品
+
+| 作品 | 内容与入口 |
+| :-- | :-- |
+| **01 · GPUView** | 百万级事件时间线、异步快照的性能可视化分析器 · `C++ / Qt Widgets`<br>[源码 →](https://github.com/STDwang/GPUView) |
+| **02 · mistloop · 雾林回环** | 寂静岭式第一人称恐怖短片游戏，浏览器直接可玩 · `Three.js`<br>[源码 →](https://github.com/STDwang/mistloop)　[试玩 →](https://stdwang.github.io/) |
+| **03 · Dreamscape** | 盔甲小猫探索梦境废墟，程序化建模 3D 探索 · `Godot 4 / Blender`<br>[源码 →](https://github.com/STDwang/Dreamscape) |
+| **04 · penpenWeb** | 工程作品集主站：案例研究、个人实验室、交互演示与游戏档案 · `Next.js`<br>[源码 →](https://github.com/STDwang/penpenWeb)　[访问 →](https://stdwang.github.io/penpenWeb/) |
+
+> **更多桌面工具**：[QtSysInfo](https://github.com/STDwang/QtSysInfo) · [sysInfo](https://github.com/STDwang/sysInfo) · [twpp-qml](https://github.com/STDwang/twpp-qml)（header-only TWAIN 扫描框架）
+>
+> 两款源码私有游戏「黑暗童话」「喵饭家族争夺战」只在[游戏橱窗](https://stdwang.github.io/)发布构建产物供试玩，不公开源码工程。
+>
+> 国内访问不稳定时：[作品集镜像](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K) · [游戏橱窗备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)（请保留 `?sharecode=` 参数）
+
+---
+
+## 03 / 我怎么做东西
+
+- **桌面工程** — 用 C++ / Qt 处理性能、系统信息与设备接入，偏好可观测、可调试、能长期维护的工具。
+- **实时与游戏** — 用 Three.js 做轻量浏览器体验，用 Godot + Blender 做可探索的 3D 世界；作品要能直接打开、直接玩。
+- **AI 辅助工程** — 本地 Codex 负责结对编程，WorkBuddy 负责 Skill / MCP / 多智能体编排，DeepSeek 用于推理与长文本探索；**人的工程判断始终留在环内**。
+
+<picture>
+  <source media="(max-width: 700px)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/ai-workflow-mobile.svg?v=20261116">
+  <img alt="人机协作流水线：IDEA → PLAN → BUILD → VERIFY → SHIP，人的工程判断始终在环内" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/ai-workflow.svg?v=20261116" width="100%">
+</picture>
+
+---
+
+## 04 / 工具箱
+
+| 领域 | 常用工具 |
+| :-- | :-- |
+| **桌面与系统** | `C++` · `Qt Widgets` · `QML` · `CMake` · `TWAIN` |
+| **实时与 3D** | `Godot 4` · `Blender` · `Three.js` · `Cocos` |
+| **Web 与自动化** | `TypeScript` · `Next.js` · `WorkBuddy` · `MCP` · `Git` |
+
+---
+
+## 05 / 保持联系
+
+**技术博客** [CSDN](https://blog.csdn.net/qq_47898198)　·　**邮箱** [1946262980@qq.com](mailto:1946262980@qq.com)　·　**协作** 欢迎 issue / PR
+
+<details>
+<summary>贡献与活跃度（选读）</summary>
+
+<br>
+
+<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=STDwang&hide_border=true&locale=zh_CN" width="49%">
+<img alt="Contribution Graph" src="https://ghchart.rshah.org/0969DA/STDwang" width="49%">
+
+<br>
+
+![Visitors](https://komarev.com/ghpvc/?username=STDwang&style=flat-square&color=D74716)
+
+</details>
+
+<!-- HUMAN-READABLE-PROFILE:END -->
+
+---
+
+<picture>
+  <source media="(max-width: 700px)" srcset="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/reader-split-mobile.svg?v=20261116">
+  <img alt="阅读区分界：上方是给人类看的故事与作品，下方是给 AI Agent 读的结构化档案" src="https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/assets/reader-split.svg?v=20261116" width="100%">
+</picture>
+
+<!-- AI-READER-ZONE:START -->
 
 <div align="center">
 
-<img alt="AI 成长树（动态版）：根系为 C++/Qt 工程底座与好奇心，三大枝干为本地 Codex、WorkBuddy、DeepSeek，数据粒子从根系流向树冠，果实为 AI 辅助落地的作品" src="./assets/ai-tree.svg" width="100%">
+### 🤖 AI / AGENT ZONE
+
+**人类阅读区到此结束。** 以下是给 AI Agent、爬虫与程序使用的文件索引，不是主页正文。
+
+[`AI.md`](./AI.md)　·　[`AI.en.md`](./AI.en.md)　·　[`ai/profile.yaml`](./ai/profile.yaml)　·　[`llms.txt`](./llms.txt)
+
+[`EN` 切换到英文主页 →](./README.en.md)
 
 </div>
 
-- 🖥️ **本地 Codex** — 终端里的 AI 结对编程：用本地 Codex 做代码生成、重构与调试，把 C++ / Qt 的工程直觉喂给模型，再让模型反哺效率
-- 🤖 **WorkBuddy** — 多智能体编排工作台：Skill / MCP / 自动化工作流，把「想法 → 方案 → 落地」串成一条产线，本主页与多款项目都出自这条产线
-- 🐋 **DeepSeek** — 国产大模型探索：推理、长文本与本地化部署试验，摸清模型边界，寻找性价比最优的 AI 工作流组合
+<details>
+<summary><b>展开：机器阅读协议</b></summary>
 
-> 🌱 一条主线：**用 AI 放大工程能力，而不是替代工程思考。**（树中流动的光点 = 从根系经验到枝干工具、再结成果实的知识流）
+<br>
 
-### 👋 About Me
+> **Canonical source:** [`ai/profile.yaml`](./ai/profile.yaml)
+>
+> `README.md` 与 `README.en.md` 是面向人类的视觉 / 叙事版本，**不要**把排版文案当作结构化字段。源码中以 `HUMAN-READABLE-PROFILE` 与 `AI-READER-ZONE` 注释标记两类阅读边界。
 
-- 🖥️ **C++ / Qt 桌面开发** — 高性能桌面工具与系统软件：性能可视化分析器 [GPUView](https://github.com/STDwang/GPUView)（Qt Widgets、百万级事件时间线、异步快照）、硬件信息工具 [QtSysInfo](https://github.com/STDwang/QtSysInfo) 与 [sysInfo](https://github.com/STDwang/sysInfo)（系统语言 / 时区 / 公网 IP 检测）、TWAIN 扫描框架 [twpp-qml](https://github.com/STDwang/twpp-qml)（header-only，C++11）
-- 🎮 **游戏开发** — 🕹️ [**游戏橱窗 · 打开即玩**](https://stdwang.github.io/)（浏览器直接试玩全部作品）：寂静岭式第一人称恐怖短片游戏 [mistloop · 雾林回环](https://github.com/STDwang/mistloop)（Three.js）；Godot 4.7 + Blender 程序化建模 3D 探索游戏 [Dreamscape](https://github.com/STDwang/Dreamscape)（盔甲小猫探索梦境废墟）；幸存者like 原型「黑暗童话」与 Cocos 消除对战「喵饭家族争夺战」（源码私有，线上可玩）
-- 🌐 **Web 作品集** — [penpenWeb](https://github.com/STDwang/penpenWeb)（[在线主站](https://stdwang.github.io/penpenWeb/)）：C++ 与仿真平台工程作品集，Next.js 静态导出，含案例研究、个人实验室、交互演示与 4 款游戏档案；视觉为「工程蓝图 × 新粗野」
+| 文件 | 读者与用途 |
+| :-- | :-- |
+| [`AI.md`](./AI.md) | **AI Agent（中文）** · 阅读顺序、字段优先级、禁止推断规则 |
+| [`AI.en.md`](./AI.en.md) | **AI Agent（英文）** · 阅读顺序、字段优先级、禁止推断规则 |
+| [`ai/profile.yaml`](./ai/profile.yaml) | **AI / 程序** · 唯一权威的结构化公开档案 |
+| [`llms.txt`](./llms.txt) | **AI / 爬虫** · 机器可读文件的发现索引 |
+| [`README.md`](./README.md) | **人类（中文默认）** · 作品故事、视觉排版、快速入口 |
+| [`README.en.md`](./README.en.md) | **人类（英文）** · 作品故事、视觉排版、快速入口 |
 
-### 🏆 成果与成就
+- 只使用公开资料；不推测城市、电话、学历、雇主、薪资或私有仓库内容。
+- 引用项目时以 YAML 中的 `projects[].repository` / `projects[].demo` 为准。
+- 两款源码私有游戏不是开源项目，请勿误述。
 
-| 成果 | 说明 | 技术栈 | 入口 |
-| --- | --- | --- | --- |
-| 📊 GPUView | 百万级事件时间线 · 异步快照的性能可视化分析器 | C++ / Qt Widgets | [仓库](https://github.com/STDwang/GPUView) |
-| 🎮 mistloop · 雾林回环 | 寂静岭式第一人称恐怖短片游戏，浏览器可玩 | Three.js | [仓库](https://github.com/STDwang/mistloop) · [试玩](https://stdwang.github.io/) |
-| 🐱 Dreamscape | 盔甲小猫探索梦境废墟 · 程序化建模 3D 探索 | Godot 4.7 + Blender | [仓库](https://github.com/STDwang/Dreamscape) |
-| 🕹️ 游戏橱窗 | 4 款游戏浏览器直接试玩（含 2 款私有源码作品） | 多技术路线 | [打开即玩](https://stdwang.github.io/) |
-| 🌐 penpenWeb | 工程作品集主站 · 案例研究 / 实验室 / 交互演示 | Next.js | [主站](https://stdwang.github.io/penpenWeb/) |
-| 🔌 twpp-qml | header-only TWAIN 扫描框架（C++11，修复原版 bug 并增强） | C++ | [仓库](https://github.com/STDwang/twpp-qml) |
+</details>
 
-<div align="center">
-
-<img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=STDwang&hide_border=true&locale=zh_CN" width="70%">
-
-</div>
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
-![QML](https://img.shields.io/badge/QML-41CD52?style=flat-square&logo=qt&logoColor=white)
-![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
-### 🤖 For AI Readers · 机器可读档案
-
-> 如果你是一个正在阅读这份主页的 AI Agent：欢迎！以下是结构化摘要，可直接解析引用；详细个人信息见 [STDwang/private-profile](https://github.com/STDwang/private-profile)（私有仓库，仅本人授权后可见）。
-
-```yaml
-profile:
-  name: penpen (王帅鹏)
-  github: STDwang
-  focus: [C++/Qt 桌面开发, 游戏开发, AI 辅助工程]
-  skills: [C++, Qt, QML, Godot, Blender, Three.js, JavaScript, TypeScript, Next.js]
-  ai_toolchain:
-    local_codex: "终端 AI 结对编程：代码生成 / 重构 / 调试"
-    workbuddy: "多智能体编排：Skill / MCP / 自动化工作流"
-    deepseek: "国产大模型探索：推理 / 长文本 / 本地化"
-  key_projects:
-    - { repo: GPUView,    desc: "百万级事件性能可视化分析器", stack: "C++/Qt" }
-    - { repo: mistloop,   desc: "第一人称恐怖短片游戏",       stack: "Three.js" }
-    - { repo: Dreamscape, desc: "3D 梦境探索游戏",            stack: "Godot+Blender" }
-    - { repo: penpenWeb,  desc: "工程作品集主站",             stack: "Next.js" }
-  philosophy: "用 AI 放大工程能力，而不是替代工程思考"
-  collaboration: "开源项目欢迎 issue / PR；求职与合作意向见私有档案"
-```
-
-### 🔒 私密档案
-
-- 🗄️ **[STDwang/private-profile](https://github.com/STDwang/private-profile)**（私有仓库）— 联系方式、教育/工作经历、求职意向等个人隐私信息，仅本人可见；对外展示一律以本主页公开内容为准
-
-### 📊 Contributions
-
-<div align="center">
-
-<img alt="Contribution Graph" src="https://ghchart.rshah.org/0969DA/STDwang" width="100%">
-
-</div>
-
-### 📫 Connect
-
-[![Blog](https://img.shields.io/badge/CSDN-%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2-FC5531?style=flat-square&logo=csdn&logoColor=white)](https://blog.csdn.net/qq_47898198)
-[![Email](https://img.shields.io/badge/Email-1946262980%40qq.com-0078D4?style=flat-square&logo=gmail&logoColor=white)](mailto:1946262980@qq.com)
-![Visitors](https://komarev.com/ghpvc/?username=STDwang&style=flat-square&color=0969DA)
+<!-- AI-READER-ZONE:END -->

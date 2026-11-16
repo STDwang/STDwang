@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">penpen · GitHub profile hero</title>
+  <desc id="desc">A warm-black engineering blueprint hero with the name and positioning on the left, and a map of desktop engineering, game development and AI agents on the right.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#F4EEE5" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FF6330" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#FF6330" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .mono { font-family: 'Cascadia Code','JetBrains Mono',Consolas,'Microsoft YaHei',monospace; }
+      .sans { font-family: 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="#17130F"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <ellipse cx="940" cy="168" rx="260" ry="190" fill="url(#glow)"/>
+
+  <!-- blueprint corner marks -->
+  <g fill="none" stroke="#F4EEE5" stroke-opacity=".42" stroke-width="1.4">
+    <path d="M24 52V24h28"/><path d="M1176 52V24h-28"/>
+    <path d="M24 288v28h28"/><path d="M1176 288v28h-28"/>
+  </g>
+  <rect x="54" y="42" width="6" height="256" rx="3" fill="#FF6330"/>
+
+  <!-- masthead -->
+  <text class="mono" x="88" y="55" font-size="12" letter-spacing="3" fill="#F4EEE5" fill-opacity=".62">PUBLIC PROFILE / 2026</text>
+  <text class="mono" x="1115" y="55" text-anchor="end" font-size="12" letter-spacing="2" fill="#F4EEE5" fill-opacity=".62">HUMAN × MACHINE READABLE</text>
+  <path d="M88 68H640" stroke="#F4EEE5" stroke-opacity=".18"/>
+  <path d="M720 68H1115" stroke="#F4EEE5" stroke-opacity=".18"/>
+
+  <!-- display name -->
+  <text class="mono" x="86" y="159" font-size="104" font-weight="800" letter-spacing="-5" fill="#F4EEE5">PEN<tspan fill="#FF6330">PEN</tspan></text>
+  <text class="sans" x="92" y="198" font-size="21" font-weight="600" letter-spacing="4" fill="#F4EEE5">Shuaipeng Wang / penpen</text>
+  <path d="M90 221H650" stroke="#FF6330" stroke-width="2"/>
+  <path d="M90 229H380" stroke="#F4EEE5" stroke-opacity=".22"/>
+  <text class="sans" x="90" y="264" font-size="25" font-weight="600" fill="#F4EEE5">Engineering instinct, made playable.</text>
+  <text class="mono" x="90" y="294" font-size="13" letter-spacing="1" fill="#C8BEB1">C++ / Qt Desktop　·　Godot + Blender Games　·　AI Agent Workflows</text>
+
+  <!-- right-side capability diagram -->
+  <g transform="translate(0 0)">
+    <circle cx="940" cy="173" r="126" fill="none" stroke="#F4EEE5" stroke-opacity=".28"/>
+    <circle cx="940" cy="173" r="91" fill="none" stroke="#F4EEE5" stroke-opacity=".18" stroke-dasharray="4 8"/>
+    <circle cx="940" cy="173" r="55" fill="#17130F" fill-opacity=".72" stroke="#FF6330" stroke-opacity=".72" stroke-width="1.5"/>
+    <path d="M940 47V299M814 173H1066" stroke="#F4EEE5" stroke-opacity=".12" stroke-dasharray="3 7"/>
+    <path d="M940 173L940 47M940 173L831 236M940 173L1049 236" stroke="#FF6330" stroke-opacity=".54" stroke-width="1.4"/>
+    <g fill="#FF6330">
+      <circle cx="940" cy="47" r="5"/><circle cx="831" cy="236" r="5"/><circle cx="1049" cy="236" r="5"/>
+    </g>
+    <g fill="#F4EEE5" fill-opacity=".92">
+      <circle cx="940" cy="47" r="2"/><circle cx="831" cy="236" r="2"/><circle cx="1049" cy="236" r="2"/>
+    </g>
+    <text class="mono" x="940" y="181" text-anchor="middle" font-size="21" font-weight="700" fill="#F4EEE5">P/</text>
+    <text class="mono" x="940" y="34" text-anchor="middle" font-size="11" letter-spacing="2" fill="#F4EEE5" fill-opacity=".82">DESKTOP</text>
+    <text class="mono" x="812" y="265" text-anchor="middle" font-size="11" letter-spacing="2" fill="#F4EEE5" fill-opacity=".82">GAMES</text>
+    <text class="mono" x="1068" y="265" text-anchor="middle" font-size="11" letter-spacing="2" fill="#F4EEE5" fill-opacity=".82">AGENTS</text>
+    <text class="mono" x="1115" y="306" text-anchor="end" font-size="11" letter-spacing="2" fill="#FF6330">CODE → CRAFT → SHIP</text>
+  </g>
+</svg>

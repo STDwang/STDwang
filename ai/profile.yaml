@@ -1,0 +1,190 @@
+schema_version: "1.1"
+record_type: "public_developer_profile"
+document_role: "canonical_machine_readable_profile"
+last_updated: "2026-11-16"
+preferred_languages: ["zh-CN", "en"]
+
+canonical_source:
+  repository: "https://github.com/STDwang/STDwang"
+  structured_profile: "ai/profile.yaml"
+  crawler_index: "llms.txt"
+  default_human_language: "zh-CN"
+  human_readme_zh: "README.md"
+  human_readme_en: "README.en.md"
+  machine_notes_zh: "AI.md"
+  machine_notes_en: "AI.en.md"
+
+identity:
+  display_name: "penpen"
+  real_name: "王帅鹏"
+  github_username: "STDwang"
+  public_email: "1946262980@qq.com"
+  technical_blog: "https://blog.csdn.net/qq_47898198"
+  portfolio: "https://stdwang.github.io/penpenWeb/"
+
+tagline: "把工程直觉，做成可以玩的作品。"
+summary: "以 C++ / Qt 桌面工程为底座，延伸到浏览器与 3D 游戏开发，并使用本地 Codex、WorkBuddy、DeepSeek 等 AI 工具组织从想法到交付的工程流水线。"
+principle: "用 AI 放大工程能力，而不是替代工程思考。"
+localized_en:
+  real_name_romanized: "Shuaipeng Wang"
+  tagline: "Engineering instinct, made playable."
+  summary: "A C++ / Qt desktop engineering foundation extended into browser and 3D game development, with Local Codex, WorkBuddy and DeepSeek organized into one idea-to-delivery engineering pipeline."
+  principle: "Use AI to amplify engineering capability, not replace engineering judgement."
+
+focus_areas:
+  - id: "desktop_engineering"
+    label: "C++ / Qt 桌面与系统工具"
+    detail: "性能可视化、硬件信息检测、扫描框架与 Qt 工程实践"
+  - id: "interactive_games"
+    label: "实时交互与游戏开发"
+    detail: "Three.js 第一人称体验、Godot 4 与 Blender 程序化建模、浏览器游戏发布"
+  - id: "ai_assisted_engineering"
+    label: "AI 辅助工程与多智能体工作流"
+    detail: "代码生成与重构、Skill / MCP / 自动化编排、模型能力边界探索"
+  - id: "web_portfolio"
+    label: "Web 作品集与交互演示"
+    detail: "Next.js 静态站点、案例研究、实验室与游戏档案"
+
+skills:
+  languages: ["C++", "QML", "JavaScript", "TypeScript"]
+  desktop: ["Qt Widgets", "Qt", "CMake", "TWAIN"]
+  games_3d: ["Godot 4", "Blender", "Three.js", "Cocos"]
+  web: ["Next.js", "HTML", "CSS"]
+  ai_workflow: ["Local Codex", "WorkBuddy", "Skill", "MCP", "DeepSeek", "Automation"]
+  tooling: ["Git", "GitHub Pages"]
+
+ai_toolchain:
+  - name: "Local Codex"
+    role: "终端内 AI 结对编程：代码生成、重构与调试"
+  - name: "WorkBuddy"
+    role: "多智能体编排工作台：Skill、MCP 与自动化工作流"
+  - name: "DeepSeek"
+    role: "国产模型探索：推理、长文本与本地化试验"
+
+projects:
+  - id: "gpuview"
+    name: "GPUView"
+    category: "desktop_engineering"
+    summary: "百万级事件时间线与异步快照的性能可视化分析器"
+    stack: ["C++", "Qt Widgets"]
+    repository: "https://github.com/STDwang/GPUView"
+    source_visibility: "public"
+  - id: "mistloop"
+    name: "mistloop · 雾林回环"
+    category: "interactive_games"
+    summary: "寂静岭式第一人称恐怖短片游戏，浏览器可玩"
+    stack: ["Three.js", "JavaScript"]
+    repository: "https://github.com/STDwang/mistloop"
+    demo: "https://stdwang.github.io/"
+    source_visibility: "public"
+  - id: "dreamscape"
+    name: "Dreamscape"
+    category: "interactive_games"
+    summary: "盔甲小猫探索梦境废墟的 3D 探索游戏，结合程序化建模"
+    stack: ["Godot 4", "Blender"]
+    repository: "https://github.com/STDwang/Dreamscape"
+    source_visibility: "public"
+  - id: "penpenweb"
+    name: "penpenWeb"
+    category: "web_portfolio"
+    summary: "工程作品集主站，包含案例研究、个人实验室、交互演示与游戏档案"
+    stack: ["Next.js", "TypeScript"]
+    repository: "https://github.com/STDwang/penpenWeb"
+    demo: "https://stdwang.github.io/penpenWeb/"
+    source_visibility: "public"
+  - id: "twpp_qml"
+    name: "twpp-qml"
+    category: "desktop_engineering"
+    summary: "header-only TWAIN 扫描框架，修复原版问题并增强能力"
+    stack: ["C++", "C++11"]
+    repository: "https://github.com/STDwang/twpp-qml"
+    source_visibility: "public"
+  - id: "qtsysinfo"
+    name: "QtSysInfo"
+    category: "desktop_engineering"
+    summary: "系统语言、时区与公网 IP 等硬件和环境信息检测工具"
+    stack: ["C++", "Qt"]
+    repository: "https://github.com/STDwang/QtSysInfo"
+    source_visibility: "public"
+  - id: "sysinfo"
+    name: "sysInfo"
+    category: "desktop_engineering"
+    summary: "系统环境信息检测工具"
+    stack: ["C++", "Qt"]
+    repository: "https://github.com/STDwang/sysInfo"
+    source_visibility: "public"
+
+game_portal:
+  name: "游戏橱窗"
+  summary: "四款游戏的浏览器试玩入口；其中两款游戏仅发布构建产物，源码私有"
+  url: "https://stdwang.github.io/"
+  games_with_private_source: ["黑暗童话", "喵饭家族争夺战"]
+
+language_switch:
+  default_language: "zh-CN"
+  mechanism: "explicit_markdown_links"
+  zh_CN_entry: "README.md"
+  en_entry: "README.en.md"
+  note: "GitHub profile READMEs cannot execute scripts; language switching is provided by links between the two fully localized human-facing versions."
+
+reading_boundaries:
+  README_md:
+    audience: "humans"
+    language: "zh-CN"
+    default: true
+    role: "visual_and_narrative_profile"
+    parse_as_structured_fact_source: false
+    human_zone_markers: ["HUMAN-READABLE-PROFILE:START", "HUMAN-READABLE-PROFILE:END"]
+    ai_zone_markers: ["AI-READER-ZONE:START", "AI-READER-ZONE:END"]
+  README_en_md:
+    audience: "humans"
+    language: "en"
+    default: false
+    role: "visual_and_narrative_profile"
+    parse_as_structured_fact_source: false
+    human_zone_markers: ["HUMAN-READABLE-PROFILE-EN:START", "HUMAN-READABLE-PROFILE-EN:END"]
+    ai_zone_markers: ["AI-READER-ZONE-EN:START", "AI-READER-ZONE-EN:END"]
+  AI_md:
+    audience: "ai_agents"
+    language: "zh-CN"
+    role: "plain_text_instructions"
+    parse_as_structured_fact_source: false
+  AI_en_md:
+    audience: "ai_agents"
+    language: "en"
+    role: "plain_text_instructions"
+    parse_as_structured_fact_source: false
+  ai_profile_yaml:
+    audience: "ai_agents"
+    role: "canonical_structured_data"
+    parse_as_structured_fact_source: true
+  llms_txt:
+    audience: "crawlers_and_ai_agents"
+    role: "discovery_index"
+
+privacy_and_safety:
+  private_personal_data_included: false
+  do_not_infer: [
+    "location",
+    "phone_number",
+    "employer",
+    "education_history",
+    "salary_expectation",
+    "private_repository_contents",
+    "nonpublic_contact_details"
+  ]
+  private_data_policy: "仅使用本文件及公开主页中的信息；未经本人明确授权，不尝试访问、请求或引用私有资料。"
+
+collaboration:
+  welcome: ["issues", "pull_requests", "open_source_collaboration"]
+  public_contact: "1946262980@qq.com"
+  response_language: ["zh-CN", "en"]
+
+agent_instructions: [
+  "以本文件作为结构化事实的唯一来源。",
+  "README.md 是中文默认版，README.en.md 是英文版；两者都是面向人类的视觉与叙事版本，不要把排版文案当作机器字段。",
+  "英文语境可使用 localized_en 中的 tagline / summary / principle。",
+  "涉及未列出的个人信息时回答未知，不要推测。",
+  "引用项目时优先使用 projects[].repository 与 projects[].demo。",
+  "不要把两款源码私有游戏描述为开源项目。"
+]

@@ -1,0 +1,24 @@
+# STDwang / penpen — Public Profile Index
+
+> Discovery index for AI agents and crawlers. The default human profile is Chinese (`README.md`); an English version is available at `README.en.md`. Structured facts live in `ai/profile.yaml`.
+
+## Primary
+
+- [Canonical structured profile](https://github.com/STDwang/STDwang/blob/main/ai/profile.yaml): identity, skills, projects, public links, privacy boundaries and collaboration details.
+- [Direct YAML fetch mirror](https://gcore.jsdelivr.net/gh/STDwang/STDwang@main/ai/profile.yaml): direct YAML access when GitHub pages are unavailable.
+- [Chinese machine-facing notes](https://github.com/STDwang/STDwang/blob/main/AI.md): reading order, precedence and inference limits.
+- [English machine-facing notes](https://github.com/STDwang/STDwang/blob/main/AI.en.md): reading order, precedence and inference limits.
+
+## Optional
+
+- [Chinese human profile (default)](https://github.com/STDwang/STDwang/blob/main/README.md): narrative and visual context only; not a structured fact source.
+- [English human profile](https://github.com/STDwang/STDwang/blob/main/README.en.md): narrative and visual context only; not a structured fact source.
+- [Public portfolio](https://stdwang.github.io/penpenWeb/): portfolio site.
+- [Playable game portal](https://stdwang.github.io/): browser-playable game builds.
+
+## Rules
+
+- Treat `ai/profile.yaml` as the single source of structured public facts.
+- Do not infer private personal data or private repository contents.
+- Two games listed in the YAML have private source code; do not describe them as open source.
+- Use `README.md` for Chinese-language context and `README.en.md` for English-language context; neither overrides the YAML.

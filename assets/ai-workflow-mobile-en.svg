@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" role="img" aria-labelledby="title desc">
+  <title id="title">Human-AI Engineering Workflow · Mobile</title>
+  <desc id="desc">A vertical five-stage workflow: idea, plan, build, verify and ship, with human engineering judgement kept in the loop.</desc>
+  <defs>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#F4EEE5" stroke-opacity=".045"/></pattern>
+    <style>.mono{font-family:'Cascadia Code','JetBrains Mono',Consolas,'Microsoft YaHei',monospace}.sans{font-family:'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif}</style>
+  </defs>
+  <rect width="600" height="430" fill="#17130F"/><rect width="600" height="430" fill="url(#grid)"/>
+  <rect x="16" y="16" width="568" height="398" fill="none" stroke="#F4EEE5" stroke-opacity=".18"/>
+  <rect x="16" y="16" width="7" height="398" fill="#FF6330"/>
+  <text class="mono" x="44" y="48" font-size="11" letter-spacing="2" fill="#F4EEE5" fill-opacity=".58">AI COLLABORATION LOOP</text>
+  <text class="sans" x="44" y="72" font-size="14" fill="#FF6330">Human judgement stays in the loop</text>
+  <path d="M86 104V370" stroke="#F4EEE5" stroke-opacity=".22" stroke-width="2"/>
+  <path d="M86 104V370" stroke="#FF6330" stroke-opacity=".55" stroke-width="2" stroke-dasharray="10 9"/>
+  <g class="mono">
+    <g><circle cx="86" cy="110" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="86" y="115" text-anchor="middle" font-size="11" fill="#F4EEE5">01</text><text x="132" y="110" font-size="18" letter-spacing="2" fill="#F4EEE5">IDEA</text><text x="132" y="132" class="sans" font-size="12" fill="#C8BEB1">Idea / frame the problem</text></g>
+    <g><circle cx="86" cy="175" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="86" y="180" text-anchor="middle" font-size="11" fill="#F4EEE5">02</text><text x="132" y="175" font-size="18" letter-spacing="2" fill="#F4EEE5">PLAN</text><text x="132" y="197" class="sans" font-size="12" fill="#C8BEB1">Plan / map the route</text></g>
+    <g><circle cx="86" cy="240" r="24" fill="#FF6330"/><text x="86" y="246" text-anchor="middle" font-size="12" font-weight="700" fill="#17130F">03</text><text x="132" y="240" font-size="18" font-weight="700" letter-spacing="2" fill="#FF6330">BUILD</text><text x="132" y="262" class="sans" font-size="12" fill="#C8BEB1">Build / human + agent</text></g>
+    <g><circle cx="86" cy="305" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="86" y="310" text-anchor="middle" font-size="11" fill="#F4EEE5">04</text><text x="132" y="305" font-size="18" letter-spacing="2" fill="#F4EEE5">VERIFY</text><text x="132" y="327" class="sans" font-size="12" fill="#C8BEB1">Verify / test and review</text></g>
+    <g><circle cx="86" cy="370" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="86" y="375" text-anchor="middle" font-size="11" fill="#F4EEE5">05</text><text x="132" y="370" font-size="18" letter-spacing="2" fill="#F4EEE5">SHIP</text><text x="132" y="392" class="sans" font-size="12" fill="#C8BEB1">Ship / runnable and reachable</text></g>
+  </g>
+</svg>

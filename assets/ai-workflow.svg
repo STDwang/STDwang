@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">人机协作工程流水线</title>
+  <desc id="desc">从想法、方案、构建、验证到交付的五阶段流水线，强调人的工程判断始终在环内。</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#F4EEE5" stroke-opacity=".045"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'Cascadia Code','JetBrains Mono',Consolas,'Microsoft YaHei',monospace; }
+      .sans { font-family: 'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="190" fill="#17130F"/>
+  <rect width="1200" height="190" fill="url(#grid)"/>
+  <rect x="18" y="18" width="1164" height="154" fill="none" stroke="#F4EEE5" stroke-opacity=".18"/>
+  <rect x="18" y="18" width="8" height="154" fill="#FF6330"/>
+
+  <text class="mono" x="52" y="48" font-size="11" letter-spacing="3" fill="#F4EEE5" fill-opacity=".58">AI COLLABORATION LOOP / 人机协作流水线</text>
+  <text class="sans" x="1148" y="48" text-anchor="end" font-size="12" fill="#FF6330">HUMAN JUDGEMENT STAYS IN THE LOOP</text>
+
+  <path d="M100 105H1100" stroke="#F4EEE5" stroke-opacity=".25" stroke-width="1.5"/>
+  <path d="M100 105H1100" stroke="#FF6330" stroke-opacity=".55" stroke-width="2" stroke-dasharray="12 10"/>
+
+  <g class="mono" text-anchor="middle">
+    <g><circle cx="105" cy="105" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="105" y="110" font-size="12" fill="#F4EEE5">01</text><text x="105" y="148" font-size="13" letter-spacing="2" fill="#F4EEE5">IDEA</text></g>
+    <g><circle cx="355" cy="105" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="355" y="110" font-size="12" fill="#F4EEE5">02</text><text x="355" y="148" font-size="13" letter-spacing="2" fill="#F4EEE5">PLAN</text></g>
+    <g><circle cx="600" cy="105" r="25" fill="#FF6330" stroke="#FF6330" stroke-width="1.5"/><text x="600" y="110" font-size="13" font-weight="700" fill="#17130F">03</text><text x="600" y="148" font-size="13" font-weight="700" letter-spacing="2" fill="#FF6330">BUILD</text></g>
+    <g><circle cx="845" cy="105" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="845" y="110" font-size="12" fill="#F4EEE5">04</text><text x="845" y="148" font-size="13" letter-spacing="2" fill="#F4EEE5">VERIFY</text></g>
+    <g><circle cx="1095" cy="105" r="20" fill="#17130F" stroke="#F4EEE5" stroke-opacity=".65" stroke-width="1.5"/><text x="1095" y="110" font-size="12" fill="#F4EEE5">05</text><text x="1095" y="148" font-size="13" letter-spacing="2" fill="#F4EEE5">SHIP</text></g>
+  </g>
+</svg>

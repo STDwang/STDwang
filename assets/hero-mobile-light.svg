@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" role="img" aria-labelledby="title desc">
+  <title id="title">penpen · GitHub 主页移动端头图</title>
+  <desc id="desc">米白工程蓝图风格竖版头图，包含姓名、定位以及桌面工程、游戏开发、AI Agent 三条技术路线。</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#211A14" stroke-opacity=".075"/></pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#D74716" stop-opacity=".11"/><stop offset="1" stop-color="#D74716" stop-opacity="0"/></radialGradient>
+    <style>.mono{font-family:'Cascadia Code','JetBrains Mono',Consolas,'Microsoft YaHei',monospace}.sans{font-family:'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif}</style>
+  </defs>
+  <rect width="600" height="520" fill="#F3EDE3"/><rect width="600" height="520" fill="url(#grid)"/>
+  <ellipse cx="300" cy="405" rx="230" ry="130" fill="url(#glow)"/>
+  <g fill="none" stroke="#211A14" stroke-opacity=".48" stroke-width="1.4"><path d="M20 48V20h28"/><path d="M580 48V20h-28"/><path d="M20 472v28h28"/><path d="M580 472v28h-28"/></g>
+  <rect x="28" y="34" width="5" height="452" rx="2.5" fill="#D74716"/>
+  <text class="mono" x="52" y="50" font-size="11" letter-spacing="2" fill="#211A14" fill-opacity=".66">PUBLIC PROFILE / 2026</text>
+  <text class="mono" x="568" y="50" text-anchor="end" font-size="11" fill="#D74716">P/ 01</text>
+  <path d="M52 64H548" stroke="#211A14" stroke-opacity=".18"/>
+  <text class="mono" x="48" y="145" font-size="76" font-weight="800" letter-spacing="-4" fill="#211A14">PEN<tspan fill="#D74716">PEN</tspan></text>
+  <text class="sans" x="52" y="181" font-size="20" font-weight="600" letter-spacing="3" fill="#211A14">王帅鹏 / 盆盆</text>
+  <path d="M50 205H550" stroke="#D74716" stroke-width="2"/>
+  <text class="sans" x="50" y="248" font-size="25" font-weight="600" fill="#211A14">把工程直觉，做成可以玩的作品。</text>
+  <text class="mono" x="50" y="283" font-size="13" fill="#64564B">C++ / Qt 桌面开发　·　Godot + Blender 游戏开发</text>
+  <text class="mono" x="50" y="307" font-size="13" fill="#64564B">AI Agent 工作流　·　Coding with curiosity</text>
+
+  <path d="M300 420L300 352M300 420L158 462M300 420L442 462" stroke="#D74716" stroke-opacity=".65" stroke-width="1.5"/>
+  <circle cx="300" cy="420" r="42" fill="#F3EDE3" stroke="#D74716" stroke-width="1.5"/>
+  <circle cx="300" cy="420" r="62" fill="none" stroke="#211A14" stroke-opacity=".22" stroke-dasharray="4 7"/>
+  <text class="mono" x="300" y="428" text-anchor="middle" font-size="20" font-weight="700" fill="#211A14">P/</text>
+  <g fill="#D74716"><circle cx="300" cy="352" r="5"/><circle cx="158" cy="462" r="5"/><circle cx="442" cy="462" r="5"/></g>
+  <text class="mono" x="300" y="338" text-anchor="middle" font-size="12" letter-spacing="2" fill="#211A14" fill-opacity=".85">DESKTOP</text>
+  <text class="mono" x="155" y="490" text-anchor="middle" font-size="12" letter-spacing="2" fill="#211A14" fill-opacity=".85">GAMES</text>
+  <text class="mono" x="445" y="490" text-anchor="middle" font-size="12" letter-spacing="2" fill="#211A14" fill-opacity=".85">AGENTS</text>
+</svg>
