@@ -33,13 +33,11 @@
 
 | 作品 | 内容与入口 |
 | :-- | :-- |
-| **01 · GPUView** | 百万级事件时间线、异步快照的性能可视化分析器 · `C++ / Qt Widgets`<br>[源码 →](https://github.com/STDwang/GPUView) |
-| **02 · mistloop · 雾林回环** | 寂静岭式第一人称恐怖短片游戏，浏览器直接可玩 · `Three.js`<br>[源码 →](https://github.com/STDwang/mistloop)　[试玩 →](https://stdwang.github.io/) |
-| **03 · Dreamscape** | 盔甲小猫探索梦境废墟，程序化建模 3D 探索 · `Godot 4 / Blender`<br>[源码 →](https://github.com/STDwang/Dreamscape) |
-| **04 · penpenWeb** | 工程作品集主站：案例研究、个人实验室、交互演示与游戏档案 · `Next.js`<br>[源码 →](https://github.com/STDwang/penpenWeb)　[访问 →](https://stdwang.github.io/penpenWeb/) |
+| **01 · penpenWeb** | 工程作品集主站：案例研究、个人实验室、交互演示与游戏档案 · `Next.js`<br>[源码 →](https://github.com/STDwang/penpenWeb)　[访问 →](https://stdwang.github.io/penpenWeb/) |
+| **02 · Dreamscape** | 盔甲小猫探索梦境废墟，程序化建模 3D 探索 · `Godot 4 / Blender`<br>[源码 →](https://github.com/STDwang/Dreamscape) |
+| **03 · mistloop · 雾林回环** | 寂静岭式第一人称恐怖短片游戏，浏览器直接可玩 · `Three.js`<br>[源码 →](https://github.com/STDwang/mistloop)　[试玩 →](https://stdwang.github.io/) |
+| **04 · GPUView** | 百万级事件时间线、异步快照的性能可视化分析器 · `C++ / Qt Widgets`<br>[源码 →](https://github.com/STDwang/GPUView) |
 
-> **更多桌面工具**：[QtSysInfo](https://github.com/STDwang/QtSysInfo) · [sysInfo](https://github.com/STDwang/sysInfo) · [twpp-qml](https://github.com/STDwang/twpp-qml)（header-only TWAIN 扫描框架）
->
 > 两款源码私有游戏「黑暗童话」「喵饭家族争夺战」只在[游戏橱窗](https://stdwang.github.io/)发布构建产物供试玩，不公开源码工程。
 >
 > 国内访问不稳定时：[作品集镜像](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/portfolio/?sharecode=QLTHCY272K) · [游戏橱窗备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)（请保留 `?sharecode=` 参数）
@@ -144,5 +142,5 @@
 
 项目身份统一使用 `owner/repo`。多个本地 checkout 与 AI Harness 可以协作同一个项目：各自只追加独立工作区登记和事件，由明确协调者维护唯一任务快照。后续接手者应先读取项目规则与公司空间中的最新状态。
 
-个人公司管理由本仓库的 WorkBuddy 技能 `boss-and-company` v3 执行。自动化能力（只读刷新、提交留痕、严格公开的状况投影）均由用户在私有档案中的开关控制，默认不写入、不外发；网站复用与改动同样按用户当前决定执行。
+个人公司管理由本仓库的 WorkBuddy 技能 `boss-and-company` v4 执行。自动化能力（只读刷新、提交留痕、严格公开的状况投影）均由用户在私有档案中的开关控制，默认不写入、不外发；网站复用与改动同样按用户当前决定执行。
 <!-- BossAndCompany:end -->
