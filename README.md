@@ -30,27 +30,18 @@
 **[在线试玩](https://stdwang.github.io/MotorcycleHMI/) · [项目源码](https://github.com/STDwang/MotorcycleHMI)**<br>
 [国内备用入口](https://wbapp-5qspg4vbu8mo6se3cxxq2a.app.workbuddy.host/?sharecode=S7BRNCGVMQ)
 
-### mistloop · 雾林回环
+### 深海花园 · Deep Sea Garden
 
-`Three.js` · `程序化音频`
+`WebGPU` · `WGSL` · `WebAudio`
 
-第一人称恐怖短片游戏，包含环面森林、视线触发事件与程序化音频。浏览器打开即玩，建议戴耳机。
+一片完全由代码实时生成的海底世界：海床峡谷、海藻森林、沉船与鱼群都跑在 GPU 计算着色器里，没有一张贴图和一个模型文件。含外海测绘任务与海底日志，需桌面版 Chrome / Edge。
 
-**[在线试玩](https://stdwang.github.io/mistloop/) · [项目源码](https://github.com/STDwang/mistloop)**<br>
-[国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/mistloop/?sharecode=QLTHCY272K)
-
-### Dreamscape · 醒梦
-
-`Godot 4` · `Blender` · `GDScript`
-
-盔甲小猫收集七颗「记忆星火」的 3D 探索游戏。仓库为 v2；在线页面保留 v1 展示快照。
-
-**[查看 v1 快照](https://stdwang.github.io/dreamscape/) · [查看 v2 源码](https://github.com/STDwang/Dreamscape)**<br>
-[国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/dreamscape/?sharecode=QLTHCY272K)
+**[在线试玩](https://stdwang.github.io/deep-sea-garden/) · [项目源码](https://github.com/STDwang/Deep_Sea_Garden)**<br>
+[国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/deep-sea-garden/?sharecode=QLTHCY272K)
 
 ### 游戏橱窗
 
-收录 6 款游戏：5 款站内构建，以及独立部署的 APEX。其中「黑暗童话」「喵饭家族争夺战」仅公开可玩构建，源码不公开。
+收录 5 款游戏：4 款站内构建，以及独立部署的 APEX。其中「黑暗童话」「喵饭家族争夺战」仅公开可玩构建，源码不公开。
 
 **[打开游戏橱窗](https://stdwang.github.io/) · [查看游戏档案](https://stdwang.github.io/penpenWeb/games/)**<br>
 [国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)
@@ -155,7 +146,7 @@
 
 - 只使用公开资料；不推测城市、电话、学历、雇主、薪资或私有仓库内容。
 - 引用项目时以 YAML 中的 `projects[].repository` / `projects[].demo` / `projects[].demo_status` 为准。
-- Dreamscape 的线上演示是 v1 快照，仓库描述的是 v2；不要混为同一版本。
+- 深海花园项目由本人原创，WebGPU 实时生成，源码公开。
 - 两款源码私有游戏不是开源项目，请勿误述。
 
 </details>
