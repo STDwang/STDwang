@@ -1,7 +1,7 @@
 schema_version: "1.2"
 record_type: "public_developer_profile"
 document_role: "canonical_machine_readable_profile"
-last_updated: "2026-11-16"
+last_updated: "2026-11-22"
 preferred_languages: ["zh-CN", "en"]
 
 canonical_source:
@@ -68,25 +68,15 @@ projects:
     demo_status: "current_interactive_build"
     demo_mirror_cn: "https://wbapp-5qspg4vbu8mo6se3cxxq2a.app.workbuddy.host/?sharecode=S7BRNCGVMQ"
     source_visibility: "public"
-  - id: "mistloop"
-    name: "mistloop · 雾林回环"
+  - id: "deep_sea_garden"
+    name: "深海花园 · Deep Sea Garden"
     category: "interactive_games"
-    summary: "寂静岭式第一人称恐怖短片游戏；环面森林、视线驱动的身影与程序化声音，浏览器可玩"
-    stack: ["Three.js", "JavaScript"]
-    repository: "https://github.com/STDwang/mistloop"
-    demo: "https://stdwang.github.io/mistloop/"
-    demo_status: "current_interactive_build"
-    demo_mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/mistloop/?sharecode=QLTHCY272K"
-    source_visibility: "public"
-  - id: "dreamscape"
-    name: "Dreamscape · 醒梦"
-    category: "interactive_games"
-    summary: "盔甲小猫收集七颗记忆星火的 3D 探索游戏；仓库为 5–8 分钟可通关的 v2，线上保留 v1 静态展示快照"
-    stack: ["Godot 4", "Blender", "GDScript"]
-    repository: "https://github.com/STDwang/Dreamscape"
-    demo: "https://stdwang.github.io/dreamscape/"
-    demo_status: "v1_static_showcase_snapshot_repository_contains_v2"
-    demo_mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/dreamscape/?sharecode=QLTHCY272K"
+    summary: "WebGPU 实时程序化生成的海底世界；GPU 计算着色器雕刻海床并生成海藻、鱼群与音景，含外海测绘任务与海底日志"
+    stack: ["WebGPU", "WGSL", "JavaScript", "WebAudio"]
+    repository: "https://github.com/STDwang/Deep_Sea_Garden"
+    demo: "https://stdwang.github.io/deep-sea-garden/"
+    demo_status: "current_webgpu_build"
+    demo_mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/deep-sea-garden/?sharecode=QLTHCY272K"
     source_visibility: "public"
   - id: "penpenweb"
     name: "penpenWeb"
@@ -120,12 +110,12 @@ projects:
 
 game_portal:
   name: "游戏橱窗"
-  summary: "六款游戏的浏览器试玩入口：五款站内构建与独立部署的 APEX；其中两款游戏仅发布构建产物，源码私有"
+  summary: "五款游戏的浏览器试玩入口：四款站内构建与独立部署的 APEX；其中两款游戏仅发布构建产物，源码私有"
   url: "https://stdwang.github.io/"
   mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K"
   game_archive: "https://stdwang.github.io/penpenWeb/games/"
   build_repository: "https://github.com/STDwang/STDwang.github.io"
-  in_portal_builds: ["bigfatfish", "darkfairytale", "dreamscape", "meowmatch", "mistloop"]
+  in_portal_builds: ["bigfatfish", "darkfairytale", "deep-sea-garden", "meowmatch"]
   independently_deployed_games: ["APEX · MotorcycleHMI"]
   games_with_private_source: ["黑暗童话", "喵饭家族争夺战"]
 
@@ -195,6 +185,6 @@ agent_instructions: [
   "英文语境可使用 localized_en 中的 summary。",
   "涉及未列出的个人信息时回答未知，不要推测。",
   "引用项目时优先使用 projects[].repository、projects[].demo 与 projects[].demo_status。",
-  "Dreamscape 的线上演示为 v1 静态展示快照，仓库为 v2；不要混为同一版本。",
+  "深海花园（Deep Sea Garden）为本人原创 WebGPU 程序化项目，源码公开；需桌面版 Chrome / Edge。",
   "不要把两款源码私有游戏描述为开源项目。"
 ]
