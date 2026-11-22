@@ -41,7 +41,7 @@ An underwater world generated entirely in code: seafloor canyons, kelp forests, 
 
 ### Game portal
 
-Five games: four in-portal builds plus the independently deployed APEX. **Dark Fairy Tale** and **Meow Rice Family Feud** publish playable builds only; their source is private.
+Four games: three in-portal builds plus the independently deployed APEX. **Dark Fairy Tale** and **Meow Rice Family Feud** publish playable builds only; their source is private.
 
 **[Open game portal](https://stdwang.github.io/) · [View game archive](https://stdwang.github.io/penpenWeb/games/)**<br>
 [China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)
