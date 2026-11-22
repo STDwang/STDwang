@@ -20,7 +20,7 @@
 
 - [APEX · MotorcycleHMI](https://stdwang.github.io/MotorcycleHMI/): interactive 3D motorcycle riding and realtime CAN / HMI laboratory.
 - [Deep Sea Garden](https://stdwang.github.io/deep-sea-garden/): WebGPU procedurally generated underwater world with survey tasks.
-- [Game portal](https://stdwang.github.io/): six-game portal with five in-portal builds and APEX as an independently deployed external game.
+- [Game portal](https://stdwang.github.io/): four-game portal with three in-portal builds and APEX as an independently deployed external game.
 - [Game archive](https://stdwang.github.io/penpenWeb/games/): technical routes and playable entry points.
 - [GPUView preview](https://github.com/STDwang/GPUView/blob/main/assets/screenshots/compact-150.png): actual application screenshot; no online demo is claimed.
 
