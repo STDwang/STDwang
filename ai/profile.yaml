@@ -110,12 +110,12 @@ projects:
 
 game_portal:
   name: "游戏橱窗"
-  summary: "五款游戏的浏览器试玩入口：四款站内构建与独立部署的 APEX；其中两款游戏仅发布构建产物，源码私有"
+  summary: "四款游戏的浏览器试玩入口：三款站内构建与独立部署的 APEX；其中两款游戏仅发布构建产物，源码私有"
   url: "https://stdwang.github.io/"
   mirror_cn: "https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K"
   game_archive: "https://stdwang.github.io/penpenWeb/games/"
   build_repository: "https://github.com/STDwang/STDwang.github.io"
-  in_portal_builds: ["bigfatfish", "darkfairytale", "deep-sea-garden", "meowmatch"]
+  in_portal_builds: ["darkfairytale", "deep-sea-garden", "meowmatch"]
   independently_deployed_games: ["APEX · MotorcycleHMI"]
   games_with_private_source: ["黑暗童话", "喵饭家族争夺战"]
 
