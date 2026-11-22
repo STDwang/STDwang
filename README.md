@@ -41,7 +41,7 @@
 
 ### 游戏橱窗
 
-收录 5 款游戏：4 款站内构建，以及独立部署的 APEX。其中「黑暗童话」「喵饭家族争夺战」仅公开可玩构建，源码不公开。
+收录 4 款游戏：3 款站内构建，以及独立部署的 APEX。其中「黑暗童话」「喵饭家族争夺战」仅公开可玩构建，源码不公开。
 
 **[打开游戏橱窗](https://stdwang.github.io/) · [查看游戏档案](https://stdwang.github.io/penpenWeb/games/)**<br>
 [国内备用入口](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)
