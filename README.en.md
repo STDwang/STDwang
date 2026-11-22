@@ -30,27 +30,18 @@ Browser-based 3D motorcycle riding and instrument laboratory, including racing, 
 **[Play online](https://stdwang.github.io/MotorcycleHMI/) · [Source code](https://github.com/STDwang/MotorcycleHMI)**<br>
 [China mirror](https://wbapp-5qspg4vbu8mo6se3cxxq2a.app.workbuddy.host/?sharecode=S7BRNCGVMQ)
 
-### mistloop · Fog Forest Loop
+### Deep Sea Garden
 
-`Three.js` · `Procedural audio`
+`WebGPU` · `WGSL` · `WebAudio`
 
-A first-person horror short with a looping forest, gaze-triggered events and procedural audio. Play in the browser; headphones recommended.
+An underwater world generated entirely in code: seafloor canyons, kelp forests, shipwrecks and fish schools all run in GPU compute shaders, with no textures or model files. Includes an outer-sea survey task and dive journal; desktop Chrome / Edge required.
 
-**[Play online](https://stdwang.github.io/mistloop/) · [Source code](https://github.com/STDwang/mistloop)**<br>
-[China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/mistloop/?sharecode=QLTHCY272K)
-
-### Dreamscape
-
-`Godot 4` · `Blender` · `GDScript`
-
-A 3D exploration game about an armored cat collecting seven Memory Sparks. The repository contains v2; the online page preserves the v1 showcase snapshot.
-
-**[View v1 snapshot](https://stdwang.github.io/dreamscape/) · [View v2 source](https://github.com/STDwang/Dreamscape)**<br>
-[China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/dreamscape/?sharecode=QLTHCY272K)
+**[Play online](https://stdwang.github.io/deep-sea-garden/) · [Source code](https://github.com/STDwang/Deep_Sea_Garden)**<br>
+[China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/deep-sea-garden/?sharecode=QLTHCY272K)
 
 ### Game portal
 
-Six games: five in-portal builds plus the independently deployed APEX. **Dark Fairy Tale** and **Meow Rice Family Feud** publish playable builds only; their source is private.
+Five games: four in-portal builds plus the independently deployed APEX. **Dark Fairy Tale** and **Meow Rice Family Feud** publish playable builds only; their source is private.
 
 **[Open game portal](https://stdwang.github.io/) · [View game archive](https://stdwang.github.io/penpenWeb/games/)**<br>
 [China mirror](https://wbapp-zx0xlufukmfj9igvb30etd.app.workbuddy.host/?sharecode=QLTHCY272K)
@@ -155,7 +146,7 @@ Email: [1946262980@qq.com](mailto:1946262980@qq.com)
 
 - Use public information only; do not infer city, phone number, education, employer, salary or private repository content.
 - Cite projects using `projects[].repository` / `projects[].demo` / `projects[].demo_status` from the YAML.
-- Dreamscape's online demo is a v1 snapshot while the repository describes v2; do not conflate the two.
+- Deep Sea Garden is an original WebGPU procedural underwater project with public source; desktop Chrome / Edge required.
 - The two source-private games are not open-source projects; do not describe them as such.
 
 </details>
